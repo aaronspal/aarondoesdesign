@@ -1,0 +1,165 @@
+.nav-sidebar {
+    position: fixed;
+    width: 60px;
+    height: 100vh;
+    /*background-color: #1b1b1b;*/
+    /*border-right: 2px #2c2c2c solid;*/
+    border-right: 2px rgba(234, 234, 234, 0.07) solid;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    z-index: 1001;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-sidebar.expanded {
+    width: 300px;
+}
+
+/* Top section - Menu Icon */
+.nav-top {
+    padding: 20px;
+    height: 60px;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 20px;
+}
+
+/* Middle section - Carousel Text */
+.text-carousel-container {
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+    opacity: 1;
+    margin-left: 2px;
+    transition: opacity 0.1s ease;
+}
+
+.text-carousel-container.hidden {
+    opacity: 0;
+}
+
+.text-carousel-container {
+    mask-image: linear-gradient(
+            to bottom,
+            transparent,
+            black 20%,
+            black 80%,
+            transparent
+    );
+    -webkit-mask-image: linear-gradient(
+            to bottom,
+            transparent,
+            black 20%,
+            black 80%,
+            transparent
+    );
+}
+
+.text-carousel-scroll {
+    animation: scrollText 50s linear infinite;
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-content h3 {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin: 30px 0;
+    font-weight: 700;
+    color: white;
+    white-space: nowrap;
+}
+
+@keyframes scrollText {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-50%);
+    }
+}
+
+/* Bottom section - Language Toggle */
+.nav-bottom {
+    padding: 20px;
+    height: 60px;
+}
+
+.lang-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 0;
+}
+
+/* Menu Items */
+.menu-items {
+    position: absolute;
+    top: 100px;
+    padding-left: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: none;
+}
+
+.menu-items.visible {
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* Overlay */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(27, 27, 27,0.5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(8px);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 999;
+}
+
+.overlay.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+nav h3 {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.nav-sidebar.solid {
+    background-color: #1b1b1b;
+}
