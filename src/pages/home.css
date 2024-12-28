@@ -41,3 +41,13 @@ button {
     border-radius: 100px;
     width: fit-content;
 }
+
+button:hover {
+    background-color: white;
+    color: #1b1b1b;
+}
+
+.margintest {
+    margin-top: 150px;
+    opacity: 0.5;
+}

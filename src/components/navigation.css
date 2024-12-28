@@ -150,6 +150,19 @@
     z-index: 999;
 }
 
+.overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://www.transparenttextures.com/patterns/otis-redding.png");
+    pointer-events: none;
+    opacity: 0.7;
+    mix-blend-mode: overlay;
+}
+
 .overlay.visible {
     opacity: 1;
     visibility: visible;

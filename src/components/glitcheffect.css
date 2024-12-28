@@ -1,0 +1,105 @@
+.glitch {
+    position: relative;
+    animation: glitch 3s infinite;
+    animation-timing-function: step-end;
+}
+
+.glitch span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.glitch span:first-of-type {
+    animation: clip-glitch 3.5s infinite;
+    animation-timing-function: step-end;
+    clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+    transform: translate(-0.025em, -0.0125em);
+}
+
+.glitch span:last-of-type {
+    animation: clip-glitch 4s infinite;
+    animation-timing-function: step-end;
+    clip-path: polygon(0 80%, 100% 20%, 100% 100%, 0 100%);
+    transform: translate(0.025em, 0.0125em);
+}
+
+@keyframes glitch {
+    0%, 5% {
+        text-shadow: none;
+        opacity: 1;
+    }
+    5.2% {
+        text-shadow: 0.05em 0 0 rgba(0, 167, 207, 0.5),
+        -0.05em -0.025em 0 rgba(5, 79, 125, 0.5),
+        -0.025em 0.05em 0 rgba(202, 191, 64, 0.5);
+    }
+    5.4% {
+        text-shadow: -0.05em -0.025em 0 rgba(0, 167, 207, 0.5),
+        0.025em 0.025em 0 rgba(5, 79, 125, 0.5),
+        -0.05em -0.05em 0 rgba(202, 191, 64, 0.5);
+    }
+    5.6% {
+        text-shadow: 0.025em 0.05em 0 rgba(0, 167, 207, 0.5),
+        0.05em 0 0 rgba(5, 79, 125, 0.5),
+        0 -0.05em 0 rgba(202, 191, 64, 0.5);
+    }
+    5.8% {
+        text-shadow: -0.025em 0 0 rgba(0, 167, 207, 0.5),
+        -0.025em -0.025em 0 rgba(5, 79, 125, 0.5),
+        -0.025em -0.05em 0 rgba(202, 191, 64, 0.5);
+    }
+    6% {
+        text-shadow: 0.05em 0 0 rgba(0, 167, 207, 0.5),
+        -0.05em -0.025em 0 rgba(5, 79, 125, 0.5),
+        -0.025em 0.05em 0 rgba(202, 191, 64, 0.5);
+    }
+    6.2% {
+        text-shadow: -0.05em -0.025em 0 rgba(0, 167, 207, 0.5),
+        0.025em 0.025em 0 rgba(5, 79, 125, 0.5),
+        -0.05em -0.05em 0 rgba(202, 191, 64, 0.5);
+    }
+    6.4% {
+        text-shadow: 0.025em 0.05em 0 rgba(0, 167, 207, 0.5),
+        0.05em 0 0 rgba(5, 79, 125, 0.5),
+        0 -0.05em 0 rgba(202, 191, 64, 0.5);
+    }
+    6.6% {
+        text-shadow: -0.025em 0 0 rgba(0, 167, 207, 0.5),
+        -0.025em -0.025em 0 rgba(5, 79, 125, 0.5),
+        -0.025em -0.05em 0 rgba(202, 191, 64, 0.5);
+    }
+    6.8%, 100% {
+        text-shadow: none;
+        opacity: 1;
+    }
+}
+
+@keyframes clip-glitch {
+    0%, 15%, 85%, 100% {
+        opacity: 0;
+    }
+    15.1%, 15.4% {
+        opacity: 0.3;
+    }
+    15.5%, 16% {
+        opacity: 0;
+    }
+    46%, 46.5% {
+        opacity: 0;
+    }
+    46.6%, 47% {
+        opacity: 0.5;
+    }
+    47.1%, 47.5% {
+        opacity: 0;
+    }
+    47.6%, 48% {
+        opacity: 0.7;
+    }
+    85.1%, 85.5% {
+        opacity: 0.5;
+    }
+}

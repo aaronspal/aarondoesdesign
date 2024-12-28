@@ -62,10 +62,34 @@ const Navigation = ({ section }) => {
 
                 {/* Expanded Menu Items */}
                 <div className={`menu-items ${isExpanded ? 'visible' : ''}`}>
-                    <h2>home</h2>
-                    <h2>work</h2>
-                    <h2>music</h2>
-                    <h2>resume</h2>
+                    <section className="column w30">
+                        <h2 className="glitch">
+                            <span aria-hidden="true">home</span>
+                            home
+                            <span aria-hidden="true">home</span>
+                        </h2>
+                    </section>
+                    <section className="column w30">
+                        <h2 className="glitch">
+                            <span aria-hidden="true">work</span>
+                            work
+                            <span aria-hidden="true">work</span>
+                        </h2>
+                    </section>
+                    <section className="column w30">
+                        <h2 className="glitch">
+                            <span aria-hidden="true">music</span>
+                            music
+                            <span aria-hidden="true">music</span>
+                        </h2>
+                    </section>
+                    <section className="column w30">
+                        <h2 className="glitch">
+                            <span aria-hidden="true">resume</span>
+                            resume
+                            <span aria-hidden="true">resume</span>
+                        </h2>
+                    </section>
                 </div>
 
                 {/* Bottom section - Language Toggle */}

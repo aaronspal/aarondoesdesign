@@ -39,7 +39,11 @@ const SectionNav = () => {
     return (
         <div className={`section-nav ${isNavVisible ? 'visible' : ''}`}>
             <div className="content">
-                <h2>{activeSection}</h2>
+                <h2 className="glitch">
+                    <span aria-hidden="true">{activeSection}</span>
+                    {activeSection}
+                    <span aria-hidden="true">{activeSection}</span>
+                </h2>
             </div>
         </div>
     );
