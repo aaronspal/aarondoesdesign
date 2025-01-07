@@ -1,0 +1,17 @@
+footer h1 {
+    font-size: 5rem;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    /*color: #6a6a6a;*/
+}
+
+.footerLeft {
+    padding-top: 95px;
+}
+
+footer h3 {
+    font-size: 1.4rem;
+}

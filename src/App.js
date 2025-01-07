@@ -1,5 +1,5 @@
 import Home from './pages/home';
-import Navigation from "./components/navigation";
+import Navigation from "./components/navigation/navigation";
 
 function App() {
   return (

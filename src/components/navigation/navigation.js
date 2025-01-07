@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './navigation.css';
-import '../components/flexgrid.css';
-import menuIcon from '../media/icons/Artboard 1.svg';
+import '../libraries/flexgrid.css';
+import menuIcon from '../../media/icons/Artboard 1.svg';
 
 const Navigation = ({ section }) => {
     const [isExpanded, setIsExpanded] = useState(false);
