@@ -1,18 +1,48 @@
 @import url("https://use.typekit.net/rlp0lka.css");
 
+@font-face {
+  font-family: 'Ppneuemontreal';
+  src: url('https://cdn.prod.website-files.com/662a9f37f011b47b63ba597d/662a9f37f011b47b63ba59b0_PPNeueMontreal-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ppneuemontreal';
+  src: url('https://cdn.prod.website-files.com/662a9f37f011b47b63ba597d/662a9f37f011b47b63ba59b5_PPNeueMontreal-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ppneuemontrealmono';
+  src: url('https://cdn.prod.website-files.com/662a9f37f011b47b63ba597d/662a9f37f011b47b63ba59ce_PPNeueMontrealMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ppneuemontreal';
+  src: url('https://cdn.prod.website-files.com/662a9f37f011b47b63ba597d/6637ca18e7ad4b7266490a4f_PPNeueMontreal-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 * {
   box-sizing: border-box;
   font-family: "indivisible", sans-serif;
   font-weight: 400;
   font-style: normal;
+
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  /*font-family: Ppneuemontrealmono ,sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
@@ -21,6 +51,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  /*font-family: "indivisible", sans-serif;*/
   margin: 0;
 }
 
@@ -60,6 +91,10 @@ h6 {
   font-size: 1rem;
 }
 
+.mono {
+  font-family: Ppneuemontrealmono,sans-serif;
+}
+
 hr {
   border: 1px solid #2c2c2c;
   border-radius: 5px;
@@ -70,33 +105,90 @@ hr {
   width: 100%;
 }
 
-.image100px {
-  width: 100px;
-}
-
 .content {
   width: 92%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 60px;
 }
 
-.contentLeft {
-  /*width: 92%;*/
-  /*margin: auto;*/
-  padding-left: 60px;
-  margin-left: 4%;
+.textCenter {
+  text-align: center;
+}
+
+.textRight {
+  text-align: right;
 }
 
 .p20 {
   font-size: 20px;
 }
 
-/*.borderWhite {*/
-/*  border: solid 1px white;*/
-/*}*/
-
 ul, li {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.section-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #1b1b1b;
+  z-index: 998;
+  display: none;
+  border-bottom: 2px #2c2c2c solid;
+}
+
+.section-nav.visible {
+  display: block;
+}
+
+.section-nav .content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.h100 {
+  height: 100vh;
+  align-items: center;
+}
+
+.margin0 {
+  margin: 0 !important;
+}
+
+figcaption {
+  border: 2px solid #2c2c2c;
+  border-top: none;
+  padding: 12px;
+  font-family: Ppneuemontrealmono;
+  text-align: right;
+
+}
+
+.figcaptionIcon {
+  height: 15px;
+  margin-bottom: -2px;
+  margin-left: 10px;
+}
+
+.figcaptionIcon2 {
+  height: 20px;
+  margin-bottom: -3.5px;
+  margin-left: 10px;
+}
+
+.marginBottom25px {
+  margin-bottom: 25px;
+}
+
+.marginTop50px {
+  padding-top: 50px;
+}
+
+.marginTop100px {
+  padding-top: 100px;
 }

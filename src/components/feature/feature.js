@@ -1,7 +1,8 @@
 import './feature.css';
+import { Link } from 'react-router-dom';
 // import
 
-function Feature({position, image, type, tool1, tool2, tool3, skill1, skill2, skill3}) {
+function Feature({path, position, image, type, tool1, tool2, tool3, skill1, skill2, skill3}) {
     return (
         <>
             <hr/>
@@ -25,8 +26,9 @@ function Feature({position, image, type, tool1, tool2, tool3, skill1, skill2, sk
                             </div>
                         </section>
                     </div>
-                    {/*<div>view case</div>*/}
-                    <button>view case</button>
+                    <Link to={path}>
+                        <button>view case</button>
+                    </Link>
                 </section>
                 <section className="column w60">
                     <img src={image} className="image100"/>

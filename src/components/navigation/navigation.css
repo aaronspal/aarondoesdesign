@@ -15,7 +15,7 @@
 }
 
 .nav-sidebar.expanded {
-    width: 300px;
+    width: 100%;
 }
 
 /* Top section - Menu Icon */
@@ -57,13 +57,13 @@
             black 80%,
             transparent
     );
-    -webkit-mask-image: linear-gradient(
-            to bottom,
-            transparent,
-            black 20%,
-            black 80%,
-            transparent
-    );
+    /*-webkit-mask-image: linear-gradient(*/
+    /*        to bottom,*/
+    /*        transparent,*/
+    /*        black 20%,*/
+    /*        black 80%,*/
+    /*        transparent*/
+    /*);*/
 }
 
 .text-carousel-scroll {
@@ -176,4 +176,8 @@ nav h3 {
 
 .nav-sidebar.solid {
     background-color: #1b1b1b;
+}
+
+nav h2 {
+    font-size: 5rem;
 }

@@ -1,0 +1,27 @@
+.progress-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 7px;
+    /*background-color: #f3f3f3;*/
+
+}
+
+.progress-bar {
+    height: 100%;
+    background-image: linear-gradient(80deg, #054f7d, #00c8cf, #cabf40, #b61e6f, #410257);
+    background-size: 600%;
+    background-position: 0 0;
+    animation: gradients 40s linear infinite alternate;
+    /*transition: width 300ms ease-out;*/
+}
+
+@keyframes gradients {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}

@@ -15,3 +15,16 @@ footer {
 footer h3 {
     font-size: 1.4rem;
 }
+
+/* Add styles for the flex container */
+footer .flexContainer {
+    display: flex;
+    /*min-height: 200px;  !* Set a minimum height *!*/
+}
+
+footer .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /*background-color: red;*/
+}

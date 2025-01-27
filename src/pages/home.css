@@ -10,29 +10,6 @@
     top: 0;
 }
 
-/* New styles for the section nav */
-.section-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #1b1b1b;
-    z-index: 998;
-    display: none;
-    border-bottom: 2px #2c2c2c solid;
-
-}
-
-.section-nav.visible {
-    display: block;
-}
-
-.section-nav .content {
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
 button {
     background-color: #1b1b1b;
     color: white;
@@ -45,9 +22,4 @@ button {
 button:hover {
     background-color: white;
     color: #1b1b1b;
-}
-
-.margintest {
-    margin-top: 150px;
-    opacity: 0.5;
 }

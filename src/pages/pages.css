@@ -1,0 +1,32 @@
+.hero {
+    height: 100vh;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.imageBackground {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.hero h1 {
+    font-size: 10rem;
+    font-weight: normal;
+}
+
+.imageShowcase {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: -5px;
+}
+
+.image100new {
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 0;
+}

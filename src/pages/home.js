@@ -11,11 +11,18 @@ import CMPM17Cover from "../media/images/CMPM17.png";
 import Feature from "../components/feature/feature";
 import Footer from "../components/footer/footer";
 import SectionNav from "../components/navigation/sectionNav";
-import GradientBackground from "../components/gradientbackground/gradientBackground";
+import GradientBackground from "../components/background/gradientBackground";
+import ChromaticAberration from "../components/chromatic";
+
+import { Canvas } from '@react-three/fiber'
+import {Noise} from "@react-three/postprocessing";
+import Navigation from "../components/navigation/navigation";
 
 function Home() {
     return (
-        <GradientBackground>
+        <>
+            <Navigation section="AARON SPALDING"/>
+            <GradientBackground>
             <SectionNav/>
             <section className="name content">
                 <h1 className="glitch">
@@ -23,7 +30,7 @@ function Home() {
                     Aaron Spalding
                     <span aria-hidden="true">Aaron Spalding</span>
                 </h1>
-                <h2>designer / programmer / student</h2>
+                <h2 className="mono">designer / programmer / student</h2>
             </section>
             <section className="flexContainer g50 content">
                 <section className="column w85">
@@ -49,9 +56,9 @@ function Home() {
                         </section>
                     </section>
                 </section>
-                <section className="column w15">
+                <section className="column w15 textCenter">
                     <img src={globe} className="image100"/>
-                    Based out of: Santa Cruz, CA
+                    Based out of:<br/>Santa Cruz, CA
                 </section>
             </section>
             <section className="flexContainer g30 content">
@@ -70,7 +77,7 @@ function Home() {
                         </section>
                     </section>
                     <section className="">
-                        <Feature position={'Rocket Team at UC Santa Cruz'} image={RocketTeamCover} type={'Lead Web Developer for'}
+                        <Feature path="/rocketteam" position={'Rocket Team at UC Santa Cruz'} image={RocketTeamCover} type={'Lead Web Developer for'}
                                  tool1="React" tool2="Figma" tool3="Adobe CC"
                                  skill1="UI/UX Design" skill2="Branding" skill3="Marketing"/>
                         <Feature position={'CMPM 17'} image={CMPM17Cover} type={'INSTRUCTOR FOR'}
@@ -88,6 +95,7 @@ function Home() {
             </section>
             <Footer/>
         </GradientBackground>
+        </>
 );
 }
 

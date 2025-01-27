@@ -1,0 +1,12 @@
+.skill {
+    height: 100px;
+    border: 2px rgba(234, 234, 234, 0.07) solid;
+    padding: 10px;
+    font-family: Ppneuemontrealmono, sans-serif;
+    font-weight: bold;
+}
+
+.skill:hover {
+    border: 2px rgba(234, 234, 234, 0.00) solid;
+    background-color: rgba(234, 234, 234, 0.07);
+}
