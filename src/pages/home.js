@@ -2,7 +2,6 @@ import './home.css'
 import '../components/libraries/flexgrid.css'
 import '../components/libraries/glitcheffect.css'
 
-import image from "../media/images/testpic.png";
 import globe from "../media/icons/GlobeWhite.svg";
 import SantaCruz from "../media/images/SantaCruz.png";
 import RocketTeamCover from "../media/images/RocketTeam.png";
@@ -12,10 +11,8 @@ import Feature from "../components/feature/feature";
 import Footer from "../components/footer/footer";
 import SectionNav from "../components/navigation/sectionNav";
 import GradientBackground from "../components/background/gradientBackground";
-import ChromaticAberration from "../components/chromatic";
 
-import { Canvas } from '@react-three/fiber'
-import {Noise} from "@react-three/postprocessing";
+import { Link } from 'react-router-dom';
 import Navigation from "../components/navigation/navigation";
 
 function Home() {
@@ -58,7 +55,7 @@ function Home() {
                 </section>
                 <section className="column w15 textCenter">
                     <img src={globe} className="image100"/>
-                    Based out of:<br/>Santa Cruz, CA
+                    <h6 className="mono">Based out of:<br/>Santa Cruz, CA</h6>
                 </section>
             </section>
             <section className="flexContainer g30 content">
@@ -73,18 +70,20 @@ function Home() {
                             </h2>
                         </section>
                         <section className="column w70 alignCenter">
-                            <button>view all cases</button>
+                            <Link to={"/cases"}>
+                                <button>view all cases</button>
+                            </Link>
                         </section>
                     </section>
                     <section className="">
                         <Feature path="/rocketteam" position={'Rocket Team at UC Santa Cruz'} image={RocketTeamCover} type={'Lead Web Developer for'}
                                  tool1="React" tool2="Figma" tool3="Adobe CC"
                                  skill1="UI/UX Design" skill2="Branding" skill3="Marketing"/>
-                        <Feature position={'CMPM 17'} image={CMPM17Cover} type={'INSTRUCTOR FOR'}
+                        <Feature path="/cmpm" position={'CMPM 17'} image={CMPM17Cover} type={'INSTRUCTOR FOR'}
                                  tool1="Laser Cutting" tool2="Printer Cutters" tool3="Canvas LMS"
                                  skill1="Course Creation" skill2="Teaching"/>
-                        <Feature position={'Data Monkey'} image={DataMonkeyCover} type={'Internship at'}
-                                 tool1="Figma" tool2="Google Analytics" tool3="Flutter"
+                        <Feature path="/datamonkey" position={'Data Monkey'} image={DataMonkeyCover} type={'Internship at'}
+                                 tool1="Figma" tool2="Google Analytics" tool3="Python"
                                  skill1="Software Engineering" skill2="UI/UX Design"/>
                         <hr className="hide-nav-section"/>
                     </section>

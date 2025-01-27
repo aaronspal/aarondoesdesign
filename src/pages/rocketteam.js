@@ -6,7 +6,7 @@ import Footer from '../components/footer/footer'
 import ScrollProgress from "../components/scrollprogress/scrollprogress";
 
 
-import RocketTeamCover from "../media/images/geronimo-giqueaux-aOqZgLQ3hU8-unsplash.png";
+import Cover from "../media/images/geronimo-giqueaux-aOqZgLQ3hU8-unsplash.png";
 import RTF1 from "../media/images/RocketTeam/RTF1.png"
 import RTF2 from "../media/images/RocketTeam/RTF2.png"
 import RTF3 from "../media/images/RocketTeam/RTF3.png"
@@ -48,7 +48,7 @@ function RocketTeam() {
                 opacity: 1 - scrollProgress,
                 zIndex: -1
             }}>
-                <img src={RocketTeamCover} className="imageBackground"/>
+                <img src={Cover} className="imageBackground"/>
             </div>
             <div className="hero">
                 <div className="content">

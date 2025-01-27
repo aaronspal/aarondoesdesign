@@ -1,6 +1,4 @@
-import './feature.css';
 import { Link } from 'react-router-dom';
-// import
 
 function Feature({path, position, image, type, tool1, tool2, tool3, skill1, skill2, skill3}) {
     return (

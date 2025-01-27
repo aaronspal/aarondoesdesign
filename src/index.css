@@ -1,33 +1,9 @@
 @import url("https://use.typekit.net/rlp0lka.css");
 
 @font-face {
-  font-family: 'Ppneuemontreal';
-  src: url('https://cdn.prod.website-files.com/662a9f37f011b47b63ba597d/662a9f37f011b47b63ba59b0_PPNeueMontreal-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Ppneuemontreal';
-  src: url('https://cdn.prod.website-files.com/662a9f37f011b47b63ba597d/662a9f37f011b47b63ba59b5_PPNeueMontreal-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: 'Ppneuemontrealmono';
   src: url('https://cdn.prod.website-files.com/662a9f37f011b47b63ba597d/662a9f37f011b47b63ba59ce_PPNeueMontrealMono-Regular.woff2') format('woff2');
   font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Ppneuemontreal';
-  src: url('https://cdn.prod.website-files.com/662a9f37f011b47b63ba597d/6637ca18e7ad4b7266490a4f_PPNeueMontreal-Bold.woff2') format('woff2');
-  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
@@ -89,6 +65,8 @@ h5 {
 
 h6 {
   font-size: 1rem;
+  font-family: Ppneuemontrealmono;
+  margin-bottom: 3px;
 }
 
 .mono {
@@ -181,6 +159,19 @@ figcaption {
   margin-left: 10px;
 }
 
+.externalLink {
+  display: block;
+  /*display: inline-block;*/
+  /*float: right;*/
+  border: 2px solid #2c2c2c;
+  padding: 12px;
+}
+
+.marginTop25px {
+  margin-top: 50px;
+  /*background-color: red;*/
+}
+
 .marginBottom25px {
   margin-bottom: 25px;
 }
@@ -191,4 +182,8 @@ figcaption {
 
 .marginTop100px {
   padding-top: 100px;
+}
+
+.marginN5px {
+  margin-bottom: -4px;
 }

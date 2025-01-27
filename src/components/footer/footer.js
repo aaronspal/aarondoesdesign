@@ -9,25 +9,15 @@ function Footer() {
             <h2>aaronspalding59@gmail.com</h2>
             <hr/>
             <section className="flexContainer">
-                <section className="column w20">
-                    <p>36.9741° N, 122.0308° W</p>
-                    <p>Santa Cruz, California</p>
+                <section className="column w50">
+                    <p className="mono margin0">36.9741° N, 122.0308° W</p>
                 </section>
                 <section className="column w30">
-                    <ul>
-                        <li>home</li>
-                        <li>work</li>
-                        <li>music</li>
-                        <li>resume (pdf)</li>
-                    </ul>
-                </section>
-                <section className="column w30">
-                    <section className="flexContainer g10">
+                    <section className="flexContainer g10 marginN5px">
                         <button>Instagram</button>
                         <button>LinkedIn</button>
-                        <button>GitHub</button>
+                        <button>Resume (PDF)</button>
                     </section>
-
                 </section>
                 <section className="column w20 textRight">
                 © Aaron Spalding 2025
