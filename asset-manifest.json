@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/aarondoesdesign/static/css/main.af4085f0.css",
-    "main.js": "/aarondoesdesign/static/js/main.41df8f91.js",
+    "main.css": "/aarondoesdesign/static/css/main.ab14a624.css",
+    "main.js": "/aarondoesdesign/static/js/main.2d3aa795.js",
     "static/js/453.7c07342c.chunk.js": "/aarondoesdesign/static/js/453.7c07342c.chunk.js",
+    "static/media/brock-wegner-xJOOVt4oKjw-unsplash.jpg": "/aarondoesdesign/static/media/brock-wegner-xJOOVt4oKjw-unsplash.7d92c1216b486275757e.jpg",
     "static/media/10-18-23-Kresge-Acad-3201-Classroom-CL-003.jpg": "/aarondoesdesign/static/media/10-18-23-Kresge-Acad-3201-Classroom-CL-003.10955714cd773124f203.jpg",
     "static/media/20231215-aerial-baskin-engineering-NEG-03.JPG": "/aarondoesdesign/static/media/20231215-aerial-baskin-engineering-NEG-03.2d0c29f8745e67950e1a.JPG",
     "static/media/IMG_0292.png": "/aarondoesdesign/static/media/IMG_0292.d6347f891316012ddf80.png",
@@ -46,12 +47,12 @@
     "static/media/GlobeWhite.svg": "/aarondoesdesign/static/media/GlobeWhite.6b551fd22d4f4d748b3177df813953a7.svg",
     "index.html": "/aarondoesdesign/index.html",
     "static/media/Artboard 1.svg": "/aarondoesdesign/static/media/Artboard 1.b68a4ada78ef62edd49f27c5310f467f.svg",
-    "main.af4085f0.css.map": "/aarondoesdesign/static/css/main.af4085f0.css.map",
-    "main.41df8f91.js.map": "/aarondoesdesign/static/js/main.41df8f91.js.map",
+    "main.ab14a624.css.map": "/aarondoesdesign/static/css/main.ab14a624.css.map",
+    "main.2d3aa795.js.map": "/aarondoesdesign/static/js/main.2d3aa795.js.map",
     "453.7c07342c.chunk.js.map": "/aarondoesdesign/static/js/453.7c07342c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af4085f0.css",
-    "static/js/main.41df8f91.js"
+    "static/css/main.ab14a624.css",
+    "static/js/main.2d3aa795.js"
   ]
 }
