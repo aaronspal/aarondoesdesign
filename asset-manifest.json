@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.62b487c8.css",
-    "main.js": "/static/js/main.bb52f3c5.js",
+    "main.js": "/static/js/main.b8231ed2.js",
     "static/js/453.7c07342c.chunk.js": "/static/js/453.7c07342c.chunk.js",
     "static/media/brock-wegner-xJOOVt4oKjw-unsplash.jpg": "/static/media/brock-wegner-xJOOVt4oKjw-unsplash.7d92c1216b486275757e.jpg",
     "static/media/10-18-23-Kresge-Acad-3201-Classroom-CL-003.jpg": "/static/media/10-18-23-Kresge-Acad-3201-Classroom-CL-003.10955714cd773124f203.jpg",
@@ -48,11 +48,11 @@
     "index.html": "/index.html",
     "static/media/Artboard 1.svg": "/static/media/Artboard 1.b68a4ada78ef62edd49f27c5310f467f.svg",
     "main.62b487c8.css.map": "/static/css/main.62b487c8.css.map",
-    "main.bb52f3c5.js.map": "/static/js/main.bb52f3c5.js.map",
+    "main.b8231ed2.js.map": "/static/js/main.b8231ed2.js.map",
     "453.7c07342c.chunk.js.map": "/static/js/453.7c07342c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.62b487c8.css",
-    "static/js/main.bb52f3c5.js"
+    "static/js/main.b8231ed2.js"
   ]
 }
