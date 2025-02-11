@@ -30,7 +30,7 @@ function Home() {
                 <h2 className="mono">designer / programmer / student</h2>
             </section>
             <section className="flexContainer g50 content">
-                <section className="column w85">
+                <section className="column w85 break1200">
                     <section className="flexContainer about-section">
                         <section className="column w25">
                             <h2 className="glitch">
@@ -45,8 +45,8 @@ function Home() {
                                 love to design experiences, interfaces, and art that people will interact with
                                 and benefit from. Though I am just a student, I believe you can only learn so much in a
                                 lecture. I love throwing myself into new endeavors and learning through experience. At my
-                                University, I’ve led two successful rebranding projects and a website redevelopment while raised
-                                over $50,000 in new funding. I am also the designer and teacher for CMPM17, a class that specializes
+                                University, I’ve led two successful rebranding projects and a website redevelopment while raising
+                                over $50,000 in new funding. I am also the designer and teacher for CMPM17: Intro to 2D Fabrication, a class that specializes
                                 in teaching students how to use Adobe Illustrator and apply it to a laser cutter, Cricut Maker 3, etc.
                                 I have also had had the opportunity to work abroad in Berlin where I worked as a software engineer intern.
                             </p>

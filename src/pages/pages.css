@@ -12,6 +12,7 @@
     position: fixed;
     z-index: -1;
     transition: opacity 0.1s ease-in-out;
+    object-fit: cover;
 }
 
 .hero h1 {

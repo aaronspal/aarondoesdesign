@@ -5,6 +5,10 @@
 .column {
 }
 
+.g5 {
+    gap: 5px;
+}
+
 .g10 {
     gap: 10px;
 }
@@ -50,19 +54,31 @@
 }
 
 .w35 {
-    width: 30%;
+    width: 35%;
 }
 
 .w40 {
     width: 40%;
 }
 
+.w45 {
+    width: 44%;
+}
+
 .w50 {
     width: 50%;
 }
 
+.w55 {
+    width: 56%;
+}
+
 .w60 {
     width: 60%;
+}
+
+.w65 {
+    width: 65%;
 }
 
 .w70 {
@@ -127,4 +143,8 @@
 
 .gridItem {
     position: relative;
+}
+
+.testing {
+    flex: 1;
 }

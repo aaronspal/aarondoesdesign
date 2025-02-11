@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import './navigation.css';
 import '../libraries/flexgrid.css';
 import menuIcon from '../../media/icons/Artboard 1.svg';
+import {Link} from "react-router-dom";
 
 const Navigation = ({ section }) => {
     const [isExpanded, setIsExpanded] = useState(false);
@@ -21,9 +22,24 @@ const Navigation = ({ section }) => {
             }
         };
 
+        // Reset body overflow when component mounts
+        document.body.style.overflow = 'auto';
+
         window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
+
+        // Cleanup function
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+            // Reset body overflow when component unmounts
+            document.body.style.overflow = 'auto';
+        };
     }, []);
+
+    // Reset body overflow and menu state when section prop changes (page navigation)
+    useEffect(() => {
+        setIsExpanded(false);
+        document.body.style.overflow = 'auto';
+    }, [section]);
 
     return (
         <>
@@ -62,34 +78,10 @@ const Navigation = ({ section }) => {
 
                 {/* Expanded Menu Items */}
                 <div className={`menu-items ${isExpanded ? 'visible' : ''}`}>
-                    <section className="column w30">
-                        <h2 className="glitch">
-                            <span aria-hidden="true">home</span>
-                            home
-                            <span aria-hidden="true">home</span>
-                        </h2>
-                    </section>
-                    <section className="column w30">
-                        <h2 className="glitch">
-                            <span aria-hidden="true">work</span>
-                            work
-                            <span aria-hidden="true">work</span>
-                        </h2>
-                    </section>
-                    <section className="column w30">
-                        <h2 className="glitch">
-                            <span aria-hidden="true">music</span>
-                            music
-                            <span aria-hidden="true">music</span>
-                        </h2>
-                    </section>
-                    <section className="column w30">
-                        <h2 className="glitch">
-                            <span aria-hidden="true">resume</span>
-                            resume
-                            <span aria-hidden="true">resume</span>
-                        </h2>
-                    </section>
+                    <Link to="/"><h2>home</h2></Link>
+                    <Link to="/cases"><h2>cases</h2></Link>
+                    <Link to="/music"><h2>music</h2></Link>
+                    <Link to="/"><h2>resume (pdf)</h2></Link>
                 </div>
 
                 {/* Bottom section - Language Toggle */}

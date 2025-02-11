@@ -1,9 +1,9 @@
 import './skill.css'
 
 
-function Skill({skillname}) {
+function Skill({ skillname, size = 'big' }) {
     return (
-        <div className="skill">
+        <div className={size === 'small' ? 'skillSmall' : 'skill'}>
             {skillname}
         </div>
     );

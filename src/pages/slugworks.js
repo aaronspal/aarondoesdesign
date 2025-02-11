@@ -79,7 +79,7 @@ function Slugworks() {
                             course that guides students through various teaching methods and course creation. After successfully
                             completing CMPM 115, students then teach the class they design.
                         </p>
-                        <a className="mono textRight marginTop25px externalLink">
+                        <a className="mono textRight marginTop50px externalLink">
                             Click here to learn more about Lead By Design
                             <img src={visitIcon} className="figcaptionIcon"/>
                         </a>

@@ -1,7 +1,7 @@
 {
   "name": "aarondoesdesign",
   "version": "0.1.0",
-  "homepage": "https://aaronspal.github.io/aarondoesdesign",
+  "homepage": "https://aarondoesdesign.com",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.120.5",

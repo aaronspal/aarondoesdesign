@@ -90,8 +90,8 @@ function RocketTeam() {
                 <figcaption>new shirt designs</figcaption>
                 <img src={RTF2} className="imageShowcase"/>
                 <figcaption>
-                    branding guides (download)
-                    <img src={downloadIcon} className="figcaptionIcon2"/>
+                    branding guides (view)
+                    <img src={visitIcon} className="figcaptionIcon"/>
                 </figcaption>
                 <img src={RTF3} className="imageShowcase"/>
                 <figcaption>

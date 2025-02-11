@@ -6,19 +6,26 @@ import Footer from '../components/footer/footer'
 import ScrollProgress from "../components/scrollprogress/scrollprogress";
 
 
-import Cover from "../media/images/geronimo-giqueaux-aOqZgLQ3hU8-unsplash.png";
-import RTF1 from "../media/images/RocketTeam/RTF1.png"
-import RTF2 from "../media/images/RocketTeam/RTF2.png"
-import RTF3 from "../media/images/RocketTeam/RTF3.png"
-import RTF4 from "../media/images/RocketTeam/RTF4.png"
-import RTOLD from "../media/images/RocketTeam/32784385.png"
-import RTNEW from "../media/images/RocketTeam/RTLogo.png"
+import Cover from "../media/images/formulaslug/IMG_0292.png";
+import FS1 from "../media/images/formulaslug/FSPPPackageDRAFT2.png"
+import FS2 from "../media/images/formulaslug/FS2023BrandingGuides.png"
+import FS3 from "../media/images/formulaslug/FS2023BrandingGuides2.png"
+import FS4 from "../media/images/formulaslug/ShirtBack.png"
+import FS5 from "../media/images/formulaslug/ShirtFront.png"
+import FS6 from "../media/images/formulaslug/Zeichenfläche 5_2.png"
+import FS7 from "../media/images/formulaslug/Zeichenfläche 8_4.png"
+import FSOLD from "../media/images/formulaslug/FormulaSlugLogo.png"
+import FSNEW from "../media/images/formulaslug/Artboard 1@3x.png"
 import visitIcon from "../media/icons/Artboard 11.png"
 import downloadIcon from "../media/icons/Artboard 13.png"
 
 import Navigation from "../components/navigation/navigation";
 import React, {useState, useEffect} from "react";
 import Skill from "../components/skill/skill";
+import CM1 from "../media/images/CMPM/Bildschirmfoto 2025-01-27 um 00.32.49.png";
+import CM2 from "../media/images/CMPM/Bildschirmfoto 2025-01-27 um 00.34.30.png";
+import CM3 from "../media/images/CMPM/Bildschirmfoto 2025-01-27 um 00.36.13.png";
+import CM4 from "../media/images/CMPM/Bildschirmfoto 2025-01-27 um 00.37.17.png";
 
 function FormulaSlug() {
     const [scrollProgress, setScrollProgress] = useState(0);
@@ -37,7 +44,7 @@ function FormulaSlug() {
 
     return (
         <>
-            <Navigation section="ROCKET TEAM"/>
+            <Navigation section="FORMULA SLUG"/>
             <ScrollProgress/>
             <div style={{
                 position: 'fixed',
@@ -60,8 +67,7 @@ function FormulaSlug() {
                 <section className="flexContainer g50">
                     <section className="column w60">
                         <h2>
-                            from a complete rebrand to $50,000 in new funding, the team has never been
-                            sexier and more competetive
+                            my first work after highschool: creating a whole new look
                         </h2>
                     </section>
                     <section className="column w40">
@@ -86,32 +92,42 @@ function FormulaSlug() {
             <section className="content">
                 <hr/>
                 <p className="p20 marginBottom25px">featured work</p>
-                <img src={RTF1} className="imageShowcase"/>
-                <figcaption>new shirt designs</figcaption>
-                <img src={RTF2} className="imageShowcase"/>
+                <img src={FS1} className="imageShowcase"/>
+                <figcaption>formula slug partner program</figcaption>
+                <section className="gridContainer2x2">
+                    <div className="gridItem">
+                        <img src={FS5} className="image100"/>
+                    </div>
+                    <div className="gridItem">
+                        <img src={FS4} className="image100"/>
+                    </div>
+                </section>
+                <figcaption>redesigned everyday tshirts</figcaption>
+                <img src={FS3} className="imageShowcase"/>
                 <figcaption>
-                    branding guides (download)
-                    <img src={downloadIcon} className="figcaptionIcon2"/>
+                    branding guidelines (2023-2024)
                 </figcaption>
-                <img src={RTF3} className="imageShowcase"/>
+                <img src={FS2} className="imageShowcase"/>
                 <figcaption>
-                    revamped website (visit)
-                    <img src={visitIcon} className="figcaptionIcon"/>
+                    instagram templates
                 </figcaption>
-                <img src={RTF4} className="imageShowcase"/>
-                <figcaption>new banner design</figcaption>
-                {/*<img src={LeWireframe} className="image100"/>*/}
-                <h1 className="marginTop50px">defining a generation</h1>
-
-                <section className="flexContainer marginTop50px g30">
-                    {/*<section className="column w15"/>*/}
-                    <section className="column w30">
-                        <img src={RTOLD} className="image100new"/>
-                        <figcaption>old logo (pre 2024)</figcaption>
-                        <img src={RTNEW} className="image100new"/>
-                        <figcaption>redesigned logo (2024)</figcaption>
+                <section className="gridContainer2x2">
+                    <div className="gridItem">
+                        <img src={FS6} className="image100"/>
+                    </div>
+                    <div className="gridItem">
+                        <img src={FS7} className="image100"/>
+                    </div>
+                </section>
+                <figcaption>
+                    additional instagram templates
+                </figcaption>
+                <section className="flexContainer marginTop100px g30">
+                    <section className="column w40">
+                        <h2 className="tinyh1">defining a generation:</h2>
+                        <h4 className="mono">how to breath new life to a team wreaked by the pandemic</h4>
                     </section>
-                    <section className="column w50">
+                    <section className="column w60">
                     <p className="p20">
                             Before joining, the team lacked a unified visual identity and had been using three different
                             logos from the last ten years. As the team's size and demands grew beginning in late 2023,
@@ -126,30 +142,26 @@ function FormulaSlug() {
                             competetive,
                             and premiere destination for all things aerospace at UC Santa Cruz.
                         </p>
-                        <p className="p20">
-                            One year later, and the rebranding project has been a total success. I created an entire new
-                            branding guides for the team to follow along with sample instagram and powerpoint templates.
-                            In the summer of 2024, I designed new shirts and a banner to be used at our events. I led a
-                            web development team in Fall of 2024 and successfully rebranded our website, and as of
-                            Winter
-                            2025, I am looking beyond our club to design new marketing material and sponsorship packages
-                            to be used for our business team.
-                        </p>
-                        <p className="p20">
-                            In additional to my rebranding project, I have also raised approximately $50,000 through
-                            grants
-                            and sponsorship outreach for the team as of January 2025.
-                        </p>
+                    </section>
+                </section>
+                <section className="flexContainer g20">
+                <section className="column w45">
+                        <img src={FSOLD} className="image100new"/>
+                        <figcaption>old logo (2015-2022)</figcaption>
+                    </section>
+                    <section className="column w55">
+                        <img src={FSNEW} className="image100new"/>
+                        <figcaption>redesigned logo (2022-PRESENT)</figcaption>
                     </section>
                 </section>
                 <section className="flexContainer marginTop100px">
                     <section className="gridContainer4x g15 w75">
                         <Skill skillname="Illustrator"/>
                         <Skill skillname="InDesign"/>
-                        <Skill skillname="HTML/CSS/React"/>
-                        <Skill skillname="Figma"/>
+                        <Skill skillname="Adobe Premiere"/>
                         <Skill skillname="Branding"/>
                         <Skill skillname="Merchandising"/>
+                        <Skill skillname="Outreach"/>
                         <Skill skillname="Marketing"/>
                         <Skill skillname="Fundraising"/>
                     </section>

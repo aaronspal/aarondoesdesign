@@ -1,0 +1,120 @@
+/*@media screen and (max-width: 1200px) {*/
+/*    .content {*/
+/*        width: 95%;*/
+/*    }*/
+
+/*    h1 {*/
+/*        font-size: 6rem;*/
+/*    }*/
+
+/*    .hero h1 {*/
+/*        font-size: 8rem;*/
+/*    }*/
+
+/*    .gridContainer4x {*/
+/*        grid-template-columns: repeat(3, 1fr);*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 768px) {*/
+/*    .content {*/
+/*        width: 100%;*/
+/*        padding-left: 20px;*/
+/*        padding-right: 20px;*/
+/*    }*/
+
+/*    h1 {*/
+/*        font-size: 4rem;*/
+/*    }*/
+
+/*    .hero h1 {*/
+/*        font-size: 5rem;*/
+/*    }*/
+
+/*    .p20 {*/
+/*        font-size: 18px;*/
+/*    }*/
+
+/*    !* Flex container adjustments *!*/
+/*    .flexContainer {*/
+/*        flex-direction: column;*/
+/*    }*/
+
+/*    !* Make columns full width on mobile *!*/
+/*    .column.w20, .column.w25, .column.w30, .column.w35,*/
+/*    .column.w40, .column.w45, .column.w50, .column.w55,*/
+/*    .column.w60, .column.w65, .column.w70, .column.w75,*/
+/*    .column.w80, .column.w85, .column.w90 {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    !* Grid adjustments *!*/
+/*    .gridContainer4x {*/
+/*        grid-template-columns: repeat(2, 1fr);*/
+/*        gap: 10px;*/
+/*    }*/
+
+/*    .gridContainer2x2 {*/
+/*        grid-template-columns: 1fr;*/
+/*    }*/
+
+/*    !* Navigation adjustments *!*/
+/*    .nav-sidebar {*/
+/*        width: 50px;*/
+/*    }*/
+
+/*    !* Adjust gaps *!*/
+/*    .g30, .g40, .g50 {*/
+/*        gap: 20px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 480px) {*/
+/*    h1 {*/
+/*        font-size: 3rem;*/
+/*    }*/
+
+/*    .hero h1 {*/
+/*        font-size: 3.5rem;*/
+/*    }*/
+
+/*    h2 {*/
+/*        font-size: 1.8rem;*/
+/*    }*/
+
+/*    .p20 {*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    !* Make grids single column *!*/
+/*    .gridContainer4x {*/
+/*        grid-template-columns: 1fr;*/
+/*    }*/
+
+/*    !* Adjust footer *!*/
+/*    footer h1 {*/
+/*        font-size: 3rem;*/
+/*    }*/
+
+/*    !* Adjust navigation *!*/
+/*    .nav-sidebar.expanded {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .menu-items h2 {*/
+/*        font-size: 3rem;*/
+/*    }*/
+/*}*/
+
+/*!* Handle touch devices *!*/
+/*@media (hover: none) {*/
+/*    button:hover {*/
+/*        background-color: #1b1b1b;*/
+/*        color: white;*/
+/*    }*/
+
+/*    .skill:hover {*/
+/*        border: 2px rgba(234, 234, 234, 0.07) solid;*/
+/*        background-color: transparent;*/
+/*    }*/
+/*}*/

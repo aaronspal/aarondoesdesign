@@ -6,7 +6,7 @@
     /*background-color: #1b1b1b;*/
     /*border-right: 2px #2c2c2c solid;*/
     border-right: 2px rgba(234, 234, 234, 0.07) solid;
-    transition: width 0.3s ease;
+    /*transition: width 0.3s ease;*/
     overflow: hidden;
     z-index: 1001;
     display: flex;
@@ -42,7 +42,7 @@
     overflow: hidden;
     opacity: 1;
     margin-left: 2px;
-    transition: opacity 0.1s ease;
+    /*transition: opacity 0.1s ease;*/
 }
 
 .text-carousel-container.hidden {
@@ -117,7 +117,7 @@
     top: 100px;
     padding-left: 20px;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    /*transition: opacity 0.3s ease;*/
     display: none;
 }
 
@@ -142,12 +142,12 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(27, 27, 27,0.5);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(8px);
+    background: rgb(27, 27, 27,0.2);
+    backdrop-filter: blur(200px);
+    -webkit-backdrop-filter: blur(20px);
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
+    /*transition: opacity 0.3s ease, visibility 0.3s ease;*/
     z-index: 999;
 }
 
@@ -180,4 +180,8 @@ nav h3 {
 
 nav h2 {
     font-size: 5rem;
+}
+
+nav button:hover {
+    background-color: rgba(0, 200, 207, 0);
 }
