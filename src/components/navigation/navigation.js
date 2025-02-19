@@ -3,6 +3,7 @@ import './navigation.css';
 import '../libraries/flexgrid.css';
 import menuIcon from '../../media/icons/Artboard 1.svg';
 import {Link} from "react-router-dom";
+import Resume from "../../media/resume/ResumeAaronSpalding.pdf";
 
 const Navigation = ({ section }) => {
     const [isExpanded, setIsExpanded] = useState(false);
@@ -81,7 +82,7 @@ const Navigation = ({ section }) => {
                     <Link to="/"><h2>home</h2></Link>
                     <Link to="/cases"><h2>cases</h2></Link>
                     <Link to="/music"><h2>music</h2></Link>
-                    <Link to="/"><h2>resume (pdf)</h2></Link>
+                    <a href={Resume} target="_blank" rel="noopener noreferrer"><h2>resume (pdf)</h2></a>
                 </div>
 
                 {/* Bottom section - Language Toggle */}

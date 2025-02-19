@@ -126,7 +126,7 @@ function Cases() {
                     <span className="" aria-hidden="true">comittetes I am apart of:</span>
                 </h2>
                 <section className="gridContainer4x g15">
-                    <Skill skillname="BE Leadership"/>
+                    <Skill skillname="Baskin Leadership"/>
                     <Skill skillname="Slugworks Executive Board"/>
                     <Skill skillname="Sustainability Lab Board"/>
                 </section>

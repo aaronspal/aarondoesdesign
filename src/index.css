@@ -73,8 +73,19 @@ h6 {
   margin-bottom: 3px;
 }
 
+a {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
 .mono {
   font-family: Ppneuemontrealmono,sans-serif;
+}
+
+.italic {
+  font-style: italic;
 }
 
 hr {
@@ -104,6 +115,10 @@ hr {
 
 .p20 {
   font-size: 20px;
+}
+
+.pt1 {
+  padding-top: 1em;
 }
 
 ul, li {
@@ -155,6 +170,13 @@ figcaption {
   height: 15px;
   margin-bottom: -2px;
   margin-left: 10px;
+  transition: transform 0.3s ease;
+  opacity: 8%;
+}
+
+.externalLink:hover .figcaptionIcon {
+  animation: arrowBounce 0.3s ease forwards;
+  opacity: 15%;
 }
 
 .figcaptionIcon2 {
@@ -165,10 +187,9 @@ figcaption {
 
 .externalLink {
   display: block;
-  /*display: inline-block;*/
-  /*float: right;*/
   border: 2px solid #2c2c2c;
   padding: 12px;
+  transition: transform 0.3s ease;
 }
 
 .marginBottom25px {
@@ -208,4 +229,16 @@ button {
 button:hover {
   background-color: white;
   color: #1b1b1b;
+}
+
+@keyframes arrowBounce {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-1px, 1px);
+  }
+  100% {
+    transform: translate(1px, -1px);
+  }
 }

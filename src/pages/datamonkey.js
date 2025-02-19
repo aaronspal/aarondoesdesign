@@ -53,33 +53,37 @@ function DataMonkey() {
             </div>
             <div className="hero">
                 <div className="content">
-                    <p className="p20 margin0 mono">Berlin, DE // 2023 // Software Engineering Intern & UI/UX Designer</p>
+                    <p className="p20 margin0 mono">Berlin, DE // 2023 // Software Engineering & UI/UX Intern</p>
                     <h1>Data Monkey</h1>
                 </div>
             </div>
             <section className="marginTop100px flexContainer content h100">
                 <section className="flexContainer g50">
-                    <section className="column w60">
-                        <h2>
-                            from a complete rebrand to $50,000 in new funding, the team has never been
-                            sexier and more competetive
-                        </h2>
+                    <section className="column w30">
+                        <h2>about</h2>
                     </section>
-                    <section className="column w40">
+                    <section className="column w70">
                         <p className="p20">
-                            Rocket Team is a student-led organization that designs rockets
-                            and research projects for the International Rocketry Engineering Challenge at the University
-                            of California, Santa Cruz. The team boasts a size of over 60 members, making it one of the
-                            larger
-                            student organizations on campus.
+                            DataMonkey (formerly UrbanMonkeys) is a Berlin, based company that specializes in data
+                            visualization through the power of AI.
                         </p>
 
                         <p className="p20">
-                            I currently serve as the Business Lead and the lead Web Developer for the team. I am
-                            responsible for the team's company outreach and fundraising. As a part of this wider effort,
-                            I have spent extensive time rebranding the team and developing a new website to create a
-                            professional feel.
+                            Through the summer of 2023, I worked alongside their team in Berlin to deliver impressive new
+                            prototypes
+                            for their upcoming application, which launched the following year. My prototypes were
+                            recreated
+                            nearly 1:1 in the final build and were used extensively in marketing material. In addition
+                            to
+                            these responsibilities, I also helped reform the Google Analytics data collection techniques
+                            used for their
+                            other application and aided in the development of a backend data processing pipeline.
                         </p>
+                        <a className="mono textRight marginTop50px externalLink" target="_blank"
+                           href="https://www.datamonkey.tech/">
+                            Visit DataMonkey
+                            <img src={visitIcon} className="figcaptionIcon" alt="visit"/>
+                        </a>
                     </section>
                 </section>
             </section>

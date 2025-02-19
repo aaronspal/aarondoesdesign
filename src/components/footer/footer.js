@@ -1,4 +1,5 @@
 import './footer.css'
+import Resume from "../../media/resume/ResumeAaronSpalding.pdf";
 
 
 function Footer() {
@@ -14,13 +15,20 @@ function Footer() {
                 </section>
                 <section className="column w30">
                     <section className="flexContainer g10 marginN5px">
-                        <button>Instagram</button>
+                        <a href="https://instagram.com/aarondoesdesign" target="_blank">
+                            <button>Instagram</button>
+                        </a>
+                        <a href="https://linkedin.com/in/aaron-spalding" target="_blank">
                         <button>LinkedIn</button>
-                        <button>Resume (PDF)</button>
+                    </a>
+                        {/*<button>LinkedIn</button>*/}
+                        <a href={Resume} target="_blank" rel="noopener noreferrer">
+                            <button>Resume (PDF)</button>
+                        </a>
                     </section>
                 </section>
                 <section className="column w20 textRight">
-                © Aaron Spalding 2025
+                    © Aaron Spalding 2025
                 </section>
             </section>
             {/*Designed by Aaron Spalding. Santa Cruz, California*/}
