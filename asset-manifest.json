@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.62b487c8.css",
-    "main.js": "/static/js/main.b8231ed2.js",
+    "main.css": "/static/css/main.9eec93de.css",
+    "main.js": "/static/js/main.e46d1823.js",
     "static/js/453.7c07342c.chunk.js": "/static/js/453.7c07342c.chunk.js",
     "static/media/brock-wegner-xJOOVt4oKjw-unsplash.jpg": "/static/media/brock-wegner-xJOOVt4oKjw-unsplash.7d92c1216b486275757e.jpg",
     "static/media/10-18-23-Kresge-Acad-3201-Classroom-CL-003.jpg": "/static/media/10-18-23-Kresge-Acad-3201-Classroom-CL-003.10955714cd773124f203.jpg",
@@ -22,15 +22,16 @@
     "static/media/Zeichenfläche 8_4.png": "/static/media/Zeichenfläche 8_4.a4075a95c6749f48e0ba.png",
     "static/media/Bildschirmfoto 2025-01-27 um 00.36.13.png": "/static/media/Bildschirmfoto 2025-01-27 um 00.36.13.9b0cb0e0314678b14771.png",
     "static/media/Zeichenfläche 5_2.png": "/static/media/Zeichenfläche 5_2.f46f9f9c3c518f20535f.png",
-    "static/media/CMPM17.png": "/static/media/CMPM17.57b3aeee330fb528cf4b.png",
     "static/media/Slugworks.png": "/static/media/Slugworks.6b6b0dd3a2070a6cccb1.png",
     "static/media/DM4.png": "/static/media/DM4.218a76575906448127e9.png",
     "static/media/Artboard 17.png": "/static/media/Artboard 17.6f3d0aa476a10c66b04c.png",
+    "static/media/CMPM17.png": "/static/media/CMPM17.341091fe3967ba23fb2f.png",
     "static/media/Artboard 21.png": "/static/media/Artboard 21.ffb23c64a54f39374d10.png",
     "static/media/ShirtFront.png": "/static/media/ShirtFront.ab9a9d95217111ac5c02.png",
     "static/media/Formula Slug.png": "/static/media/Formula Slug.5a27134b8d04c1582267.png",
     "static/media/Artboard 17_1.png": "/static/media/Artboard 17_1.09d94946daecbca80170.png",
     "static/media/ShirtBack.png": "/static/media/ShirtBack.f05cd3e9126f67143096.png",
+    "static/media/Sample Assignment.png": "/static/media/Sample Assignment.8de6fbd6c1da64c09779.png",
     "static/media/RocketTeam.png": "/static/media/RocketTeam.1584180c603408c8abed.png",
     "static/media/SantaCruz.png": "/static/media/SantaCruz.614ad810c466cd4d74c8.png",
     "static/media/Bildschirmfoto 2025-01-27 um 00.37.17.png": "/static/media/Bildschirmfoto 2025-01-27 um 00.37.17.aaf33683301b3416bbd7.png",
@@ -41,18 +42,19 @@
     "static/media/DM5.png": "/static/media/DM5.fd83635c12c7a227d929.png",
     "static/media/DataMonkey.png": "/static/media/DataMonkey.159071b983d1118051a9.png",
     "static/media/Artboard 21_1.png": "/static/media/Artboard 21_1.5b731c99a1dc056d3ed3.png",
+    "static/media/ResumeAaronSpalding.pdf": "/static/media/ResumeAaronSpalding.48eb638a67459ff7c3c5.pdf",
     "static/media/FormulaSlugLogo.png": "/static/media/FormulaSlugLogo.a59f80e00cbf4fffe0af.png",
     "static/media/Artboard 1@3x.png": "/static/media/Artboard 1@3x.1f9e5551400e8151451b.png",
     "static/media/32784385.png": "/static/media/32784385.46105f253845a68f3f98.png",
     "static/media/GlobeWhite.svg": "/static/media/GlobeWhite.6b551fd22d4f4d748b3177df813953a7.svg",
     "index.html": "/index.html",
     "static/media/Artboard 1.svg": "/static/media/Artboard 1.b68a4ada78ef62edd49f27c5310f467f.svg",
-    "main.62b487c8.css.map": "/static/css/main.62b487c8.css.map",
-    "main.b8231ed2.js.map": "/static/js/main.b8231ed2.js.map",
+    "main.9eec93de.css.map": "/static/css/main.9eec93de.css.map",
+    "main.e46d1823.js.map": "/static/js/main.e46d1823.js.map",
     "453.7c07342c.chunk.js.map": "/static/js/453.7c07342c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62b487c8.css",
-    "static/js/main.b8231ed2.js"
+    "static/css/main.9eec93de.css",
+    "static/js/main.e46d1823.js"
   ]
 }
