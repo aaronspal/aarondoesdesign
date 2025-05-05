@@ -242,3 +242,7 @@ button:hover {
     transform: translate(1px, -1px);
   }
 }
+
+.hrBreakpoint {
+  display: none;
+}

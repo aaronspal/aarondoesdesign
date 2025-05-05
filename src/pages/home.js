@@ -1,4 +1,5 @@
 import './home.css'
+import './homebreakpoints.css'
 import '../components/libraries/flexgrid.css'
 import '../components/libraries/glitcheffect.css'
 
@@ -29,8 +30,8 @@ function Home() {
                 </h1>
                 <h2 className="mono">designer / programmer / student</h2>
             </section>
-            <section className="flexContainer g50 content">
-                <section className="column w85 break1200">
+            <section className="flexContainer g50 content flexContainerBreakpoint2">
+                <section className="column w85 w85Breakpoint">
                     <section className="flexContainer about-section">
                         <section className="column w25">
                             <h2 className="glitch">
@@ -44,22 +45,28 @@ function Home() {
                                 I am a third-year Art and Design: Games and Playable Media studying at UC Santa Cruz. I
                                 love to design experiences, interfaces, and art that people will interact with
                                 and benefit from. Though I am just a student, I believe you can only learn so much in a
-                                lecture. I love throwing myself into new endeavors and learning through experience. At my
-                                University, I’ve led two successful rebranding projects and a website redevelopment while raising
-                                over $50,000 in new funding. I am also the designer and teacher for CMPM17: Intro to 2D Fabrication, a class that specializes
-                                in teaching students how to use Adobe Illustrator and apply it to a laser cutter, Cricut Maker 3, etc.
-                                I have also had had the opportunity to work abroad in Berlin where I worked as a software engineer intern.
+                                lecture. I love throwing myself into new endeavors and learning through experience. At
+                                my
+                                University, I’ve led two successful rebranding projects and a website redevelopment
+                                while raising
+                                over $50,000 in new funding. I am also the designer and teacher for CMPM17: Intro to 2D
+                                Fabrication, a class that specializes
+                                in teaching students how to use Adobe Illustrator and apply it to a laser cutter, Cricut
+                                Maker 3, etc.
+                                I have also had had the opportunity to work abroad in Berlin where I worked as a
+                                software engineer intern.
                             </p>
                         </section>
                     </section>
+                    <hr className="hrBreakpoint"/>
                 </section>
-                <section className="column w15 textCenter">
-                    <img src={globe} className="image100"/>
+                <section className="column w15 textCenter globeBreakpoint">
+                    <img src={globe} className="image100 image100BreakpointGlobe"/>
                     <h6 className="mono">Based out of:<br/>Santa Cruz, CA</h6>
                 </section>
             </section>
             <section className="flexContainer g30 content">
-                <section className="column w80">
+                <section className="column w80 w85Breakpoint">
                     <hr/>
                     <section className="flexContainer work-section">
                         <section className="column w30">

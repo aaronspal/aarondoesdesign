@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1300px) {
+    .feature65Breakpoint {
+        width: 100%;
+    }
+    .feature35Breakpoint {
+        width: 100%;
+    }
+    .flexContainerBreakpoint {
+        display: block;
+    }
+    .image100Breakpoint {
+        margin-bottom: 50px;
+    }
+    .featureInfo101Breakpoint {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .buttonBreakpoint {
+        padding: 15px 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .buttonBreakpoint {
+        margin-top: 40px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .flexContainerBreakpoint3 {
+        flex-direction: column-reverse;
+    }
+    .feature40Breakpoint, .feature60Breakpoint {
+        width: 100%;
+    }
+
+    .flexContainerBreakpoint3 button {
+        margin-top: 40px;
+    }
+}

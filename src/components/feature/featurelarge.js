@@ -1,16 +1,17 @@
 import { Link } from 'react-router-dom';
 import Skill from "../skill/skill";
 import React from "react";
+import './featurebreakpoints.css'
 
 function FeatureLarge({path, position, image, type, timeStart, timeEnd, text, skill1, skill2, skill3, tool1, tool2, tool3}) {
     return (
         <>
-            <section className="flexContainer g30">
-                <section className="column w65">
-                    <img src={image} className="image100"/>
+            <section className="flexContainer g30 flexContainerBreakpoint">
+                <section className="column w65 feature65Breakpoint">
+                    <img src={image} className="image100 image100Breakpoint"/>
                 </section>
-                <section className="column w35 flexColumn">
-                    <div>
+                <section className="column w35 flexColumn feature35Breakpoint flexColumnBreakpoint">
+                    <div className="">
                         <h4>{type}</h4>
                         <h3>{position}</h3>
                         <p className="mono">{timeStart} - {timeEnd}</p>
@@ -18,7 +19,7 @@ function FeatureLarge({path, position, image, type, timeStart, timeEnd, text, sk
                             {text}
                         </p>
                     </div>
-                    <section className="flexContainer g15">
+                    <section className="flexContainer g15 featureInfo101Breakpoint">
                         <div className="w50">
                             <h5>Tools</h5>
                             <h6>{tool1}</h6>
@@ -34,7 +35,7 @@ function FeatureLarge({path, position, image, type, timeStart, timeEnd, text, sk
                     </section>
                     <section className="textRight">
                         <Link to={path}>
-                        <button>view case</button>
+                            <button className="buttonBreakpoint">view case</button>
                         </Link>
                     </section>
                 </section>
