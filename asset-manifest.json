@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9eec93de.css",
-    "main.js": "/static/js/main.e46d1823.js",
+    "main.css": "/static/css/main.3dca9689.css",
+    "main.js": "/static/js/main.189d2985.js",
     "static/js/453.7c07342c.chunk.js": "/static/js/453.7c07342c.chunk.js",
     "static/media/brock-wegner-xJOOVt4oKjw-unsplash.jpg": "/static/media/brock-wegner-xJOOVt4oKjw-unsplash.7d92c1216b486275757e.jpg",
     "static/media/10-18-23-Kresge-Acad-3201-Classroom-CL-003.jpg": "/static/media/10-18-23-Kresge-Acad-3201-Classroom-CL-003.10955714cd773124f203.jpg",
@@ -49,12 +49,12 @@
     "static/media/GlobeWhite.svg": "/static/media/GlobeWhite.6b551fd22d4f4d748b3177df813953a7.svg",
     "index.html": "/index.html",
     "static/media/Artboard 1.svg": "/static/media/Artboard 1.b68a4ada78ef62edd49f27c5310f467f.svg",
-    "main.9eec93de.css.map": "/static/css/main.9eec93de.css.map",
-    "main.e46d1823.js.map": "/static/js/main.e46d1823.js.map",
+    "main.3dca9689.css.map": "/static/css/main.3dca9689.css.map",
+    "main.189d2985.js.map": "/static/js/main.189d2985.js.map",
     "453.7c07342c.chunk.js.map": "/static/js/453.7c07342c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9eec93de.css",
-    "static/js/main.e46d1823.js"
+    "static/css/main.3dca9689.css",
+    "static/js/main.189d2985.js"
   ]
 }
