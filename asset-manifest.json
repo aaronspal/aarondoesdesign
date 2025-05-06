@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3dca9689.css",
-    "main.js": "/static/js/main.189d2985.js",
+    "main.css": "/static/css/main.20c45096.css",
+    "main.js": "/static/js/main.98b2c100.js",
     "static/js/453.7c07342c.chunk.js": "/static/js/453.7c07342c.chunk.js",
     "static/media/brock-wegner-xJOOVt4oKjw-unsplash.jpg": "/static/media/brock-wegner-xJOOVt4oKjw-unsplash.7d92c1216b486275757e.jpg",
     "static/media/10-18-23-Kresge-Acad-3201-Classroom-CL-003.jpg": "/static/media/10-18-23-Kresge-Acad-3201-Classroom-CL-003.10955714cd773124f203.jpg",
@@ -17,6 +17,7 @@
     "static/media/RTF3.png": "/static/media/RTF3.00b17c2518cf2ec6d828.png",
     "static/media/Artboard 15.png": "/static/media/Artboard 15.b455481d4ad599561714.png",
     "static/media/FS2023BrandingGuides2.png": "/static/media/FS2023BrandingGuides2.b9cee1744a56cbf02d48.png",
+    "static/media/Frame 1.png": "/static/media/Frame 1.14539f3123cae607c9c5.png",
     "static/media/DM1.png": "/static/media/DM1.61c42c7fe19b90accc9b.png",
     "static/media/Bildschirmfoto 2025-01-27 um 00.34.30.png": "/static/media/Bildschirmfoto 2025-01-27 um 00.34.30.86671fa51c0300ce093f.png",
     "static/media/Zeichenfläche 8_4.png": "/static/media/Zeichenfläche 8_4.a4075a95c6749f48e0ba.png",
@@ -41,7 +42,6 @@
     "static/media/RTLogo.png": "/static/media/RTLogo.b91ad5da039ab89f3559.png",
     "static/media/DM5.png": "/static/media/DM5.fd83635c12c7a227d929.png",
     "static/media/DataMonkey.png": "/static/media/DataMonkey.159071b983d1118051a9.png",
-    "static/media/Artboard 21_1.png": "/static/media/Artboard 21_1.5b731c99a1dc056d3ed3.png",
     "static/media/ResumeAaronSpalding.pdf": "/static/media/ResumeAaronSpalding.48eb638a67459ff7c3c5.pdf",
     "static/media/FormulaSlugLogo.png": "/static/media/FormulaSlugLogo.a59f80e00cbf4fffe0af.png",
     "static/media/Artboard 1@3x.png": "/static/media/Artboard 1@3x.1f9e5551400e8151451b.png",
@@ -49,12 +49,12 @@
     "static/media/GlobeWhite.svg": "/static/media/GlobeWhite.6b551fd22d4f4d748b3177df813953a7.svg",
     "index.html": "/index.html",
     "static/media/Artboard 1.svg": "/static/media/Artboard 1.b68a4ada78ef62edd49f27c5310f467f.svg",
-    "main.3dca9689.css.map": "/static/css/main.3dca9689.css.map",
-    "main.189d2985.js.map": "/static/js/main.189d2985.js.map",
+    "main.20c45096.css.map": "/static/css/main.20c45096.css.map",
+    "main.98b2c100.js.map": "/static/js/main.98b2c100.js.map",
     "453.7c07342c.chunk.js.map": "/static/js/453.7c07342c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3dca9689.css",
-    "static/js/main.189d2985.js"
+    "static/css/main.20c45096.css",
+    "static/js/main.98b2c100.js"
   ]
 }
