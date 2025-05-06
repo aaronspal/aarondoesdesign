@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './navigation.css';
+import './navigationbreakpoints.css';
 import '../libraries/flexgrid.css';
 import menuIcon from '../../media/icons/Artboard 1.svg';
 import {Link} from "react-router-dom";
@@ -12,14 +13,29 @@ const Navigation = ({ section }) => {
     const toggleMenu = () => {
         setIsExpanded(!isExpanded);
         document.body.style.overflow = isExpanded ? 'auto' : 'hidden';
-    };
 
-    useEffect(() => {
-        const handleScroll = () => {
+        // When menu is expanded, remove solid background
+        if (!isExpanded) {
+            setIsSolid(false);
+        } else {
+            // When menu is closed, check if we need to set solid based on scroll position
             const aboutSection = document.querySelector('.about-section');
             if (aboutSection) {
                 const aboutTop = aboutSection.getBoundingClientRect().top;
                 setIsSolid(aboutTop <= 0);
+            }
+        }
+    };
+
+    useEffect(() => {
+        const handleScroll = () => {
+            // Only update solid state when menu is not expanded
+            if (!isExpanded) {
+                const aboutSection = document.querySelector('.about-section');
+                if (aboutSection) {
+                    const aboutTop = aboutSection.getBoundingClientRect().top;
+                    setIsSolid(aboutTop <= 0);
+                }
             }
         };
 
@@ -34,7 +50,7 @@ const Navigation = ({ section }) => {
             // Reset body overflow when component unmounts
             document.body.style.overflow = 'auto';
         };
-    }, []);
+    }, [isExpanded]); // Add isExpanded as a dependency
 
     // Reset body overflow and menu state when section prop changes (page navigation)
     useEffect(() => {
@@ -45,8 +61,7 @@ const Navigation = ({ section }) => {
     return (
         <>
             <div className={`overlay ${isExpanded ? 'visible' : ''}`} onClick={toggleMenu}/>
-
-            <nav className={`nav-sidebar ${isExpanded ? 'expanded' : ''} ${isSolid ? 'solid' : ''}`}>
+            <nav className={`nav-sidebar ${isExpanded ? 'expanded' : ''} ${isSolid && !isExpanded ? 'solid' : ''}`}>
                 {/* Top section - Menu Icon */}
                 <div className="nav-top">
                     <button className="menu-button" onClick={toggleMenu}>

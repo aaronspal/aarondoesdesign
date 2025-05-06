@@ -33,14 +33,14 @@ function Home() {
             <section className="flexContainer g50 content flexContainerBreakpoint2">
                 <section className="column w85 w85Breakpoint">
                     <section className="flexContainer about-section">
-                        <section className="column w25">
+                        <section className="column w25 w25Breakpoint">
                             <h2 className="glitch">
                                 <span aria-hidden="true">about</span>
                                 about
                                 <span aria-hidden="true">about</span>
                             </h2>
                         </section>
-                        <section className="column w75">
+                        <section className="column w75 w75Breakpoint">
                             <p className="p20">
                                 I am a third-year Art and Design: Games and Playable Media studying at UC Santa Cruz. I
                                 love to design experiences, interfaces, and art that people will interact with

@@ -114,6 +114,10 @@
     flex-direction: row-reverse;
 }
 
+.rowReverse {
+    flex-direction: row-reverse;
+}
+
 .spaceBetween {
     justify-content: space-between;
 }

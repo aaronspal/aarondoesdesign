@@ -89,15 +89,17 @@ function RocketTeam() {
                 <img src={RTF1} className="imageShowcase"/>
                 <figcaption>new shirt designs</figcaption>
                 <img src={RTF2} className="imageShowcase"/>
-                <figcaption>
+                <a className="mono textRight externalLink noBorderTop" target="_blank"
+                   href="https://www.ucscrocketry.org/">
                     branding guides (view)
-                    <img src={visitIcon} className="figcaptionIcon"/>
-                </figcaption>
+                    <img src={visitIcon} className="figcaptionIcon" alt="visit"/>
+                </a>
                 <img src={RTF3} className="imageShowcase"/>
-                <figcaption>
+                <a className="mono textRight externalLink noBorderTop" target="_blank"
+                   href="https://www.ucscrocketry.org/">
                     revamped website (visit)
-                    <img src={visitIcon} className="figcaptionIcon"/>
-                </figcaption>
+                    <img src={visitIcon} className="figcaptionIcon" alt="visit"/>
+                </a>
                 <img src={RTF4} className="imageShowcase"/>
                 <figcaption>new banner design</figcaption>
                 {/*<img src={LeWireframe} className="image100"/>*/}
@@ -112,7 +114,7 @@ function RocketTeam() {
                         <figcaption>redesigned logo (2024)</figcaption>
                     </section>
                     <section className="column w50">
-                    <p className="p20">
+                        <p className="p20">
                             Before joining, the team lacked a unified visual identity and had been using three different
                             logos from the last ten years. As the team's size and demands grew beginning in late 2023,
                             the need for cohesive branding and professionalism became much more apparent.

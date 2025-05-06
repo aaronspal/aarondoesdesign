@@ -205,7 +205,7 @@ figcaption {
 }
 
 .marginN5px {
-  margin-bottom: -4px;
+  margin-bottom: -5px;
 }
 
 .marginTop25px {
@@ -245,4 +245,26 @@ button:hover {
 
 .hrBreakpoint {
   display: none;
+}
+
+.noBorderTop {
+  border-top: none;
+}
+
+@media only screen and (max-width: 900px) {
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
 }

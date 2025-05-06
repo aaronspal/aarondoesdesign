@@ -1,0 +1,28 @@
+@media only screen and (max-width: 900px) {
+    .nav-sidebar {
+        width: 46px;
+    }
+    nav h3 {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .nav-top {
+        padding: 13px;
+    }
+    .nav-bottom {
+        padding: 20px 13px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .nav-sidebar {
+        width: 40px;
+    }
+    nav h3 {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    .nav-top, .nav-bottom {
+        padding: 10px;
+    }
+}

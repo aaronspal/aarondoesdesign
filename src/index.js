@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import './index.css';
+
+//Remove before pusing
+import './components/libraries/debug.css';
+
 import './components/libraries/breakpoints.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';

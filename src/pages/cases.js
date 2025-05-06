@@ -24,7 +24,7 @@ import Overlord from "../media/images/cases/Artboard 21.png";
 import L1 from "../media/images/cases/Artboard 15_1.png";
 import Bingo from "../media/images/cases/Artboard 15.png";
 import Pando from "../media/images/cases/Artboard 17.png";
-import Wildwest from "../media/images/cases/Artboard 21_1.png";
+import YouTube from "../media/images/cases/Frame 1.png";
 import Yearbook from "../media/images/cases/Artboard 17_1.png";
 
 function Cases() {
@@ -111,8 +111,8 @@ function Cases() {
                         <figcaption>Pando (Webflow)</figcaption>
                     </div>
                     <div className="gridItemx">
-                        <img src={Wildwest} className="image100 marginN5px"/>
-                        <figcaption>ARTG10 - Aestetic Designs (Illustrator)</figcaption>
+                        <img src={YouTube} className="image100 marginN5px"/>
+                        <figcaption>YouTube Discover Topics Landing Page (Figma)</figcaption>
                     </div>
                     <div className="gridItemx">
                         <img src={Overlord} className="image100 marginN5px"/>
