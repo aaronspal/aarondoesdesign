@@ -25,7 +25,7 @@ const SectionNav = () => {
                 setIsNavVisible(aboutTop <= 0);
 
                 if (workTop <= 0) {
-                    setActiveSection('work');
+                    setActiveSection('cases');
                 } else {
                     setActiveSection('about');
                 }

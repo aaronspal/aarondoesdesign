@@ -28,7 +28,7 @@ function Home() {
                     Aaron Spalding
                     <span aria-hidden="true">Aaron Spalding</span>
                 </h1>
-                <h2 className="mono">designer / programmer / student</h2>
+                <h2 className="mono">designer // programmer // student</h2>
             </section>
             <section className="flexContainer g50 content flexContainerBreakpoint2">
                 <section className="column w85 w85Breakpoint">
@@ -97,7 +97,7 @@ function Home() {
                 </section>
             </section>
             <section className="content">
-                <img src={SantaCruz} className="image100"/>
+                <img src={SantaCruz} className="image100 marginTop50px"/>
             </section>
             <Footer/>
         </GradientBackground>

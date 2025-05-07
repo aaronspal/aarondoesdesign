@@ -33,7 +33,7 @@ function Cases() {
             <Navigation section="ALL CASES"/>
             <ScrollProgress/>
             <section className="content">
-                <h1>cases</h1>
+                <h1 className="paddingTop50px">cases</h1>
                 <hr/>
                 <section className="flexContainer">
                     <section className="column w30">
@@ -77,7 +77,7 @@ function Cases() {
                               timeStart="SEPT 2022" timeEnd="JAN 2024"
                               type={'Graphic Designer & Finance Lead'}
                               text="The first student organization I joined while at university. I was responsible for raising money for the team and I updated the ten-year-old branding to reflect a new generation of competition vehicles."
-                              tool1="Figma" tool2="Google Analytics" tool3="Python"
+                              tool1="Adobe Illustrator" tool2="Adobe InDesign" tool3="Figma"
                               skill1="Engineering" skill2="Graphic Design" skill3="Marketing"/>
                 <section className="flexContainer">
                     <section className="column w30">

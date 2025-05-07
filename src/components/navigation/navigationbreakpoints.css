@@ -12,6 +12,9 @@
     .nav-bottom {
         padding: 20px 13px;
     }
+    .content {
+        padding-left: 46px !important;
+    }
 }
 
 @media only screen and (max-width: 475px) {
@@ -24,5 +27,8 @@
     }
     .nav-top, .nav-bottom {
         padding: 10px;
+    }
+    .content {
+        padding-left: 40px !important;
     }
 }
