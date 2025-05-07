@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.8a412fb4.css",
+    "main.css": "/static/css/main.17ff4c70.css",
     "main.js": "/static/js/main.b9f70dae.js",
     "static/js/453.7c07342c.chunk.js": "/static/js/453.7c07342c.chunk.js",
     "static/media/brock-wegner-xJOOVt4oKjw-unsplash.jpg": "/static/media/brock-wegner-xJOOVt4oKjw-unsplash.7d92c1216b486275757e.jpg",
@@ -49,12 +49,12 @@
     "static/media/GlobeWhite.svg": "/static/media/GlobeWhite.6b551fd22d4f4d748b3177df813953a7.svg",
     "index.html": "/index.html",
     "static/media/Artboard 1.svg": "/static/media/Artboard 1.b68a4ada78ef62edd49f27c5310f467f.svg",
-    "main.8a412fb4.css.map": "/static/css/main.8a412fb4.css.map",
+    "main.17ff4c70.css.map": "/static/css/main.17ff4c70.css.map",
     "main.b9f70dae.js.map": "/static/js/main.b9f70dae.js.map",
     "453.7c07342c.chunk.js.map": "/static/js/453.7c07342c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a412fb4.css",
+    "static/css/main.17ff4c70.css",
     "static/js/main.b9f70dae.js"
   ]
 }
