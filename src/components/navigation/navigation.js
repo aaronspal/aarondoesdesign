@@ -29,7 +29,6 @@ const Navigation = ({ section }) => {
 
     useEffect(() => {
         const handleScroll = () => {
-            // Only update solid state when menu is not expanded
             if (!isExpanded) {
                 const aboutSection = document.querySelector('.about-section');
                 if (aboutSection) {
@@ -39,18 +38,18 @@ const Navigation = ({ section }) => {
             }
         };
 
-        // Reset body overflow when component mounts
-        document.body.style.overflow = 'auto';
+        // Only set overflow to auto if menu is not expanded
+        if (!isExpanded) {
+            document.body.style.overflow = 'auto';
+        }
 
         window.addEventListener('scroll', handleScroll);
 
         // Cleanup function
         return () => {
             window.removeEventListener('scroll', handleScroll);
-            // Reset body overflow when component unmounts
-            document.body.style.overflow = 'auto';
         };
-    }, [isExpanded]); // Add isExpanded as a dependency
+    }, [isExpanded]);
 
     // Reset body overflow and menu state when section prop changes (page navigation)
     useEffect(() => {
