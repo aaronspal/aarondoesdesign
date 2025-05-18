@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.17ff4c70.css",
-    "main.js": "/static/js/main.ea9bbd73.js",
+    "main.css": "/static/css/main.de34c30c.css",
+    "main.js": "/static/js/main.53f7ab06.js",
     "static/js/453.7c07342c.chunk.js": "/static/js/453.7c07342c.chunk.js",
     "static/media/brock-wegner-xJOOVt4oKjw-unsplash.jpg": "/static/media/brock-wegner-xJOOVt4oKjw-unsplash.7d92c1216b486275757e.jpg",
     "static/media/10-18-23-Kresge-Acad-3201-Classroom-CL-003.jpg": "/static/media/10-18-23-Kresge-Acad-3201-Classroom-CL-003.10955714cd773124f203.jpg",
@@ -26,10 +26,10 @@
     "static/media/Slugworks.png": "/static/media/Slugworks.6b6b0dd3a2070a6cccb1.png",
     "static/media/DM4.png": "/static/media/DM4.218a76575906448127e9.png",
     "static/media/Artboard 17.png": "/static/media/Artboard 17.6f3d0aa476a10c66b04c.png",
+    "static/media/FormulaSlug.png": "/static/media/FormulaSlug.f54c0b15e10adc436bdc.png",
     "static/media/CMPM17.png": "/static/media/CMPM17.341091fe3967ba23fb2f.png",
     "static/media/Artboard 21.png": "/static/media/Artboard 21.ffb23c64a54f39374d10.png",
     "static/media/ShirtFront.png": "/static/media/ShirtFront.ab9a9d95217111ac5c02.png",
-    "static/media/Formula Slug.png": "/static/media/Formula Slug.5a27134b8d04c1582267.png",
     "static/media/Artboard 17_1.png": "/static/media/Artboard 17_1.09d94946daecbca80170.png",
     "static/media/ShirtBack.png": "/static/media/ShirtBack.f05cd3e9126f67143096.png",
     "static/media/Sample Assignment.png": "/static/media/Sample Assignment.8de6fbd6c1da64c09779.png",
@@ -49,12 +49,12 @@
     "static/media/GlobeWhite.svg": "/static/media/GlobeWhite.6b551fd22d4f4d748b3177df813953a7.svg",
     "index.html": "/index.html",
     "static/media/Artboard 1.svg": "/static/media/Artboard 1.b68a4ada78ef62edd49f27c5310f467f.svg",
-    "main.17ff4c70.css.map": "/static/css/main.17ff4c70.css.map",
-    "main.ea9bbd73.js.map": "/static/js/main.ea9bbd73.js.map",
+    "main.de34c30c.css.map": "/static/css/main.de34c30c.css.map",
+    "main.53f7ab06.js.map": "/static/js/main.53f7ab06.js.map",
     "453.7c07342c.chunk.js.map": "/static/js/453.7c07342c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17ff4c70.css",
-    "static/js/main.ea9bbd73.js"
+    "static/css/main.de34c30c.css",
+    "static/js/main.53f7ab06.js"
   ]
 }
