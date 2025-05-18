@@ -18,22 +18,22 @@ import FeatureLarge from "../components/feature/featurelarge";
 import RocketTeamCover from "../media/images/RocketTeam.png";
 import CMPM17Cover from "../media/images/CMPM17.png";
 import DMCover from "../media/images/DataMonkey.png";
-import FSCover from "../media/images/Formula Slug.png";
+import FSCover from "../media/images/FormulaSlug.png";
 import SlugworksCover from "../media/images/Slugworks.png";
-import Overlord from "../media/images/cases/Artboard 21.png";
-import L1 from "../media/images/cases/Artboard 15_1.png";
-import Bingo from "../media/images/cases/Artboard 15.png";
-import Pando from "../media/images/cases/Artboard 17.png";
-import YouTube from "../media/images/cases/Frame 1.png";
-import Yearbook from "../media/images/cases/Artboard 17_1.png";
+import Overlord from "../media/images/work/Artboard 21.png";
+import L1 from "../media/images/work/Artboard 15_1.png";
+import Bingo from "../media/images/work/Artboard 15.png";
+import Pando from "../media/images/work/Artboard 17.png";
+import YouTube from "../media/images/work/Frame 1.png";
+import Yearbook from "../media/images/work/Artboard 17_1.png";
 
-function Cases() {
+function Work() {
     return (
         <>
-            <Navigation section="ALL CASES"/>
+            <Navigation section="ALL WORK"/>
             <ScrollProgress/>
             <section className="content">
-                <h1 className="paddingTop50px">cases</h1>
+                <h1 className="paddingTop50px">work</h1>
                 <hr/>
                 <section className="flexContainer">
                     <section className="column w30">
@@ -136,4 +136,4 @@ function Cases() {
     );
 }
 
-export default Cases;
+export default Work;

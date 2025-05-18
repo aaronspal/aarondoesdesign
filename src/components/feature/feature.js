@@ -18,7 +18,7 @@ function Feature({path, position, image, type, tool1, tool2, tool3, skill1, skil
                                 <h6>{tool3}</h6>
                             </div>
                             <div className="w50">
-                                <h5>Skills</h5>
+                                <h5>Responsibilities</h5>
                                 <h6>{skill1}</h6>
                                 <h6>{skill2}</h6>
                                 <h6>{skill3}</h6>
@@ -26,7 +26,7 @@ function Feature({path, position, image, type, tool1, tool2, tool3, skill1, skil
                         </section>
                     </div>
                     <Link to={path}>
-                        <button className="buttonBreakpoint">view case</button>
+                        <button className="buttonBreakpoint">read more</button>
                     </Link>
                 </section>
                 <section className="column w60 feature60Breakpoint">

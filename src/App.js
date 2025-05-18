@@ -6,7 +6,7 @@ import ScrollToTop from "./components/scrolltotop/scrolltotop";
 import DataMonkey from "./pages/datamonkey";
 import CMPM from "./pages/cmpm";
 import Music from "./pages/music";
-import Cases from "./pages/cases";
+import Work from "./pages/work";
 import Slugworks from "./pages/slugworks";
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
             <Route path="/formulaslug" element={<FormulaSlug/>}/>
             <Route path="/slugworks" element={<Slugworks/>}/>
             <Route path="/cmpm" element={<CMPM/>}/>
-            <Route path="/cases" element={<Cases/>}/>
+            <Route path="/work" element={<Work/>}/>
             <Route path="/music" element={<Music/>}/>
         </Routes>
         {/*<Navigation section="AARON SPALDING"/>*/}

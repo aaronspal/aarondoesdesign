@@ -94,7 +94,7 @@ const Navigation = ({ section }) => {
                 {/* Expanded Menu Items */}
                 <div className={`menu-items ${isExpanded ? 'visible' : ''}`}>
                     <Link to="/"><h2>home</h2></Link>
-                    <Link to="/cases"><h2>cases</h2></Link>
+                    <Link to="/work"><h2>work</h2></Link>
                     <Link to="/music"><h2>music</h2></Link>
                     <a href={Resume} target="_blank" rel="noopener noreferrer"><h2>resume (pdf)</h2></a>
                 </div>

@@ -7,12 +7,14 @@ const SectionNav = () => {
     useEffect(() => {
         const handleScroll = () => {
             const aboutSection = document.querySelector('.about-section');
-            const workSection = document.querySelector('.work-section');
+            const experienceSection = document.querySelector('.experience-section');
+            const projectsSection = document.querySelector('.projects-section');
             const hideSection = document.querySelector('.hide-nav-section');
 
-            if (aboutSection && workSection && hideSection) {
+            if (aboutSection && experienceSection && projectsSection && hideSection) {
                 const aboutTop = aboutSection.getBoundingClientRect().top;
-                const workTop = workSection.getBoundingClientRect().top;
+                const experienceTop = experienceSection.getBoundingClientRect().top;
+                const projectsTop = projectsSection.getBoundingClientRect().top;
                 const hideTop = hideSection.getBoundingClientRect().top;
 
                 // First check if we should hide the nav completely
@@ -24,8 +26,11 @@ const SectionNav = () => {
                 // Otherwise handle normal nav visibility and section switching
                 setIsNavVisible(aboutTop <= 0);
 
-                if (workTop <= 0) {
-                    setActiveSection('cases');
+                // Determine which section is active based on scroll position
+                if (projectsTop <= 0) {
+                    setActiveSection('projects');
+                } else if (experienceTop <= 0) {
+                    setActiveSection('experience');
                 } else {
                     setActiveSection('about');
                 }

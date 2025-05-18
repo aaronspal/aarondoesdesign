@@ -8,6 +8,8 @@ import SantaCruz from "../media/images/SantaCruz.png";
 import RocketTeamCover from "../media/images/RocketTeam.png";
 import DataMonkeyCover from "../media/images/DataMonkey.png";
 import CMPM17Cover from "../media/images/CMPM17.png";
+import FormulaSlugCover from "../media/images/FormulaSlug.png";
+import SlugworksCover from "../media/images/Slugworks.png";
 import Feature from "../components/feature/feature";
 import Footer from "../components/footer/footer";
 import SectionNav from "../components/navigation/sectionNav";
@@ -68,41 +70,68 @@ function Home() {
             <section className="flexContainer g30 content">
                 <section className="column w80 w85Breakpoint">
                     <hr/>
-                    <section className="flexContainer work-section">
+                    <section className="flexContainer experience-section">
                         <section className="column w30">
                             <h2 className="glitch">
-                                <span aria-hidden="true">cases</span>
-                                cases
-                                <span aria-hidden="true">cases</span>
+                                <span aria-hidden="true">experience</span>
+                                experience
+                                <span aria-hidden="true">experience</span>
                             </h2>
                         </section>
                         <section className="column w70 alignCenter">
-                            <Link to={"/cases"}>
-                                <button>view all cases</button>
+                            <Link to={"/work"}>
+                                <button>view all work</button>
                             </Link>
                         </section>
                     </section>
                     <section className="">
-                        <Feature path="/rocketteam" position={'Rocket Team at UC Santa Cruz'} image={RocketTeamCover} type={'Lead Web Developer for'}
+                        <Feature path="/datamonkey" position={'Data Monkey'} image={DataMonkeyCover}
+                                 type={'Internship At'}
+                                 tool1="Figma" tool2="Google Analytics" tool3="Python"
+                                 skill1="Software Engineering" skill2="UI/UX Design"/>
+                        {/*<hr className="hide-nav-section"/>*/}
+                        <Feature path="/slugworks" position={'Slugworks'} image={SlugworksCover}
+                                 type={'Graphic Designer At'}
+                                 tool1="Adobe Illustrator" tool2="3D Printing" tool3="Laser Cutting"
+                                 skill1="2D Fabrication" skill2="Graphic Design" skill3="Student Support"/>
+                        <hr/>
+                    </section>
+                    <section className="flexContainer projects-section">
+                        <section className="column w30">
+                            <h2 className="glitch">
+                                <span aria-hidden="true">projects</span>
+                                projects
+                                <span aria-hidden="true">projects</span>
+                            </h2>
+                        </section>
+                        <section className="column w70 alignCenter">
+                            <Link to={"/work"}>
+                                <button>view all work</button>
+                            </Link>
+                        </section>
+                    </section>
+                    <section className="">
+                        <Feature path="/rocketteam" position={'Rocket Team at UC Santa Cruz'} image={RocketTeamCover}
+                                 type={'Lead Web Developer for'}
                                  tool1="React" tool2="Figma" tool3="Adobe CC"
                                  skill1="UI/UX Design" skill2="Branding" skill3="Marketing"/>
                         <Feature path="/cmpm" position={'CMPM 17'} image={CMPM17Cover} type={'INSTRUCTOR FOR'}
                                  tool1="Laser Cutting" tool2="Printer Cutters" tool3="Canvas LMS"
                                  skill1="Course Creation" skill2="Teaching"/>
-                        <Feature path="/datamonkey" position={'Data Monkey'} image={DataMonkeyCover} type={'Internship at'}
-                                 tool1="Figma" tool2="Google Analytics" tool3="Python"
-                                 skill1="Software Engineering" skill2="UI/UX Design"/>
+                        <Feature path="/cmpm" position={'Formula Slug'} image={FormulaSlugCover} type={'DESIGNER & FINANCE LEAD FOR'}
+                                 tool1="Adobe Illustrator" tool2="Adobe InDesign" tool3="Figma"
+                                 skill1="Engineering" skill2="Graphic Design" skill3="Marketing"/>
                         <hr className="hide-nav-section"/>
                     </section>
                 </section>
             </section>
-            <section className="content">
-                <img src={SantaCruz} className="image100 marginTop50px"/>
-            </section>
-            <Footer/>
-        </GradientBackground>
+                <section className="content">
+                    <img src={SantaCruz} className="image100 marginTop50px"/>
+                </section>
+                <Footer/>
+            </GradientBackground>
         </>
-);
+    );
 }
 
 export default Home;

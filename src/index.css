@@ -132,7 +132,9 @@ ul, li {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #1b1b1b;
+  /*background-color: #1b1b1b;*/
+  background-color: rgba(27, 27, 27, 0.9);
+  backdrop-filter: blur(300px);
   z-index: 998;
   display: none;
   border-bottom: 2px #2c2c2c solid;
