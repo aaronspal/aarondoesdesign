@@ -1,76 +1,25 @@
-@import url("https://use.typekit.net/rlp0lka.css");
+/*@import url("https://use.typekit.net/rlp0lka.css");*/
 
-@font-face {
-  font-family: 'Ppneuemontrealmono';
-  src: url('https://cdn.prod.website-files.com/662a9f37f011b47b63ba597d/662a9f37f011b47b63ba59ce_PPNeueMontrealMono-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
+/* Reset Styles */
 
 * {
   box-sizing: border-box;
   font-family: "indivisible", sans-serif;
   font-weight: 400;
   font-style: normal;
-
 }
 
 body {
   margin: 0;
-  /*font-family: Ppneuemontrealmono ,sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
-  background-color: #1b1b1b;
-  color: white;
+  /*background-color: #1b1b1b;*/
+  /*color: white;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
-  /*font-family: "indivisible", sans-serif;*/
   margin: 0;
-}
-
-h1 {
-  font-size: 8rem;
-  font-weight: 700;
-}
-
-.tinyh1 {
-  font-size: 4.5rem;
-}
-
-h2 {
-  font-size: 2.2rem;
-  font-weight: 400;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-h3 {
-  font-size: 2.4rem;
-  font-weight: 400;
-  margin-top: 2px;
-}
-
-h4 {
-  color: #8c8c8c;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-h5 {
-  font-size: 1rem;
-  font-weight: 700;
-  margin: 12px 0;
-  color: #8c8c8c;
-
-}
-
-h6 {
-  font-size: 1rem;
-  font-family: Ppneuemontrealmono;
-  margin-bottom: 3px;
 }
 
 a {
@@ -80,30 +29,7 @@ a {
   font-family: inherit;
 }
 
-.mono {
-  font-family: Ppneuemontrealmono,sans-serif;
-}
-
-.italic {
-  font-style: italic;
-}
-
-hr {
-  border: 1px solid #2c2c2c;
-  border-radius: 5px;
-  margin: 50px 0;
-}
-
-.image100 {
-  width: 100%;
-}
-
-.content {
-  width: 92%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 60px;
-}
+/* Universal Styles */
 
 .textCenter {
   text-align: center;
@@ -117,163 +43,11 @@ hr {
   font-size: 20px;
 }
 
-.pt1 {
-  padding-top: 1em;
-}
-
 ul, li {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
-.section-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  /*background-color: #1b1b1b;*/
-  background-color: rgba(27, 27, 27, 0.9);
-  backdrop-filter: blur(300px);
-  z-index: 998;
-  display: none;
-  border-bottom: 2px #2c2c2c solid;
-}
-
-.section-nav.visible {
-  display: block;
-}
-
-.section-nav .content {
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.h100 {
-  height: 100vh;
-  align-items: center;
-}
-
 .margin0 {
   margin: 0 !important;
-}
-
-figcaption {
-  border: 2px solid #2c2c2c;
-  border-top: none;
-  padding: 12px;
-  font-family: Ppneuemontrealmono;
-  text-align: right;
-
-}
-
-.figcaptionIcon {
-  height: 15px;
-  margin-bottom: -2px;
-  margin-left: 10px;
-  transition: transform 0.3s ease;
-  opacity: 8%;
-}
-
-.externalLink:hover .figcaptionIcon {
-  animation: arrowBounce 0.3s ease forwards;
-  opacity: 15%;
-}
-
-.figcaptionIcon2 {
-  height: 20px;
-  margin-bottom: -3.5px;
-  margin-left: 10px;
-}
-
-.externalLink {
-  display: block;
-  border: 2px solid #2c2c2c;
-  padding: 12px;
-  transition: transform 0.3s ease;
-}
-
-.marginBottom25px {
-  margin-bottom: 25px;
-}
-
-.paddingTop50px {
-  padding-top: 50px;
-}
-
-.marginTop100px {
-  padding-top: 100px;
-}
-
-.marginN5px {
-  margin-bottom: -5px;
-}
-
-.marginTop25px {
-  margin-top: 25px;
-}
-
-.marginTop50px {
-  margin-top: 50px;
-}
-
-
-button {
-  background-color: #1b1b1b;
-  color: white;
-  border: white 1px solid;
-  padding: 7px 15px;
-  border-radius: 100px;
-  width: fit-content;
-  font-size: 0.9rem;
-}
-
-button:hover {
-  background-color: white;
-  color: #1b1b1b;
-}
-
-@keyframes arrowBounce {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(-1px, 1px);
-  }
-  100% {
-    transform: translate(1px, -1px);
-  }
-}
-
-.hrBreakpoint {
-  display: none;
-}
-
-.noBorderTop {
-  border-top: none;
-}
-
-@media only screen and (min-width: 1700px) {
-  .content {
-    width: 1550px;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  h1 {
-    font-size: 5rem;
-  }
-  h2 {
-    font-size: 1.5rem;
-  }
-}
-
-@media only screen and (max-width: 475px) {
-  h1 {
-    font-size: 3rem;
-  }
-  h2 {
-    font-size: 1rem;
-  }
 }
