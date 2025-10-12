@@ -1,5 +1,6 @@
 import './home.css'
-import '../components/libraries/flexgrid.css'
+import '../../components/libraries/flexgrid.css'
+import Sidebar from '../../components/sidebar/sidebar.js'
 
 
 // import { Link } from 'react-router-dom';
@@ -7,7 +8,8 @@ import '../components/libraries/flexgrid.css'
 function Home() {
     return (
         <>
-            testing :D
+            Aaron Spalding
+            <Sidebar/>
         </>
     );
 }
