@@ -1,0 +1,11 @@
+.hero {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    position: relative;
+    z-index: 2;
+}
