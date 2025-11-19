@@ -4,7 +4,7 @@ import Experience from '../../components/experience/experience.js'
 import Header from "../../components/header/header";
 import GradientBackground from '../../components/background/gradientBackground';
 // import Sidebar from '../../components/sidebar/sidebar.js'
-import imageTest from '../../media/images/geronimo-giqueaux-aOqZgLQ3hU8-unsplash.png'
+import imageTest from '../../media/images/work/Frame 1.png'
 
 
 // import { Link } from 'react-router-dom';
@@ -46,22 +46,8 @@ function Home() {
                 <Experience title="Graphic Designer at Slugworks" description="the stuff that I did" years="2023-2025" />
                 <hr/>
                 <Experience title="Software & UI/UX Intern at Urban Monkeys" description="the stuff that I did" years="2023"/>
-            </section>
-            <section className="container">
-                <h2>Student Organizations</h2>
-                <Experience title="Business Lead at the UCSC Rocket Team" description="the stuff that I did" years="2023-2025"/>
                 <hr/>
-                <Experience title="Director of Finance at Formula Slug" description="the stuff that I did" years="2022-2024" />
-            </section>
-            <section className="container">
-                <h2>Projects</h2>
-                <Experience title="CMPM 115" description="the stuff that I did" years="2023-2025"/>
-                <hr/>
-                <Experience title="The Audition" description="the stuff that I did" years="2025" />
-                <hr/>
-                <Experience title="CrashPad" description="the stuff that I did" years="2025" />
-                <hr/>
-                <Experience title="Pavo" description="the stuff that I did" years="2025" />
+                <Experience title="Software & UI/UX Intern at Urban Monkeys" description="the stuff that I did" years="2023"/>
             </section>
         </>
     );

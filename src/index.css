@@ -1,5 +1,13 @@
 @import url("https://use.typekit.net/rlp0lka.css");
 
+/* CSS Variables */
+:root {
+  --white: white;
+  --text-primary: black;
+  --text-secondary-light: #757575;
+  --text-secondary-dark: rgba(198, 198, 198, 0.8);
+}
+
 /* Reset Styles */
 
 * {
@@ -56,12 +64,12 @@ h4 {
 }
 
 p {
-  color: #757575;
+  color: var(--text-secondary-light);
 }
 
 hr {
   border: none;
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid var(--text-secondary-dark);
   margin: 0;
 }
 
@@ -105,4 +113,14 @@ ul, li {
 .image100 {
   width: 100%;
   border-radius: 30px;
+}
+
+.minorHeadline {
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: 600;
+}
+
+.grayText {
+  color: var(--text-secondary-light);
 }
