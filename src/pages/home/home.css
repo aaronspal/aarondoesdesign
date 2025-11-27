@@ -9,3 +9,11 @@
     position: relative;
     z-index: 2;
 }
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}

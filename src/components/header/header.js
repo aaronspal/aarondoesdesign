@@ -52,7 +52,6 @@ function Header() {
     }, [isShowcasePage, virtualScroll]);
 
     const navItems = [
-        { name: 'Home', path: '/' },
         { name: 'Work', path: '/work' },
         { name: 'Gallery', path: '/gallery' },
         { name: 'Resume', path: '/resume' }
@@ -67,10 +66,10 @@ function Header() {
                 pointerEvents: headerOpacity === 0 ? 'none' : 'auto'
             } : {}}
         >
-            <div className="flexContainer g15">
+            <Link to="/" className="flexContainer g15" style={{ textDecoration: 'none', color: 'inherit' }}>
                 <img src={logo} alt="Aaron Spalding Logo" className="logo" />
                 <h1>aarondoesdesign</h1>
-            </div>
+            </Link>
             <nav className="flexContainer g20">
                 {navItems.map((item) => (
                     <Link

@@ -8,6 +8,11 @@
   --text-secondary-dark: rgba(198, 198, 198, 0.8);
 }
 
+::selection {
+  background-color: #000000; /* Change to your desired highlight background color */
+  color: #ffffff; /* Change to your desired highlighted text color */
+}
+
 /* Reset Styles */
 
 * {
@@ -82,7 +87,7 @@ hr {
 }
 
 .containerFull {
-  padding: 15px;
+  padding: 20px;
 }
 
 .imageContainer {
@@ -123,4 +128,9 @@ ul, li {
 
 .grayText {
   color: var(--text-secondary-light);
+}
+
+.invertedColors {
+  color: var(--text-secondary-dark);
+  background-color: var(--text-primary);
 }

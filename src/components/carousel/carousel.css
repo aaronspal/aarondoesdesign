@@ -1,0 +1,99 @@
+.carousel {
+  width: 100%;
+  margin: auto;
+  --slide-height: 500px;
+  --slide-spacing: 1rem;
+  --slide-size: 1000px;
+}
+
+.carouselViewport {
+  overflow: hidden;
+}
+
+.carouselContainer {
+  display: flex;
+  margin-left: calc(var(--slide-spacing) * -1);
+  backface-visibility: hidden;
+  cursor: grab;
+}
+
+.carouselContainer:active {
+  cursor: grabbing;
+}
+
+.carouselSlide {
+  transform: translate3d(0, 0, 0);
+  flex: 0 0 var(--slide-size);
+  min-width: 0;
+  padding-left: var(--slide-spacing);
+}
+
+.carouselSlideImg {
+  width: 100%;
+  height: var(--slide-height);
+  object-fit: cover;
+  border-radius: 20px;
+  user-select: none;
+}
+
+.carouselControls {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.carouselDots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.carouselDot {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.5);
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  touch-action: manipulation;
+  display: inline-flex;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.carouselDot:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carouselDotSelected {
+  background-color: rgba(0, 0, 0, 1);
+  border-color: rgba(0, 0, 0, 1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .carousel {
+    --slide-height: 50vh;
+    --slide-spacing: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel {
+    --slide-height: 40vh;
+  }
+
+  .carouselDot {
+    width: 10px;
+    height: 10px;
+  }
+}
